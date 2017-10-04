@@ -11,12 +11,16 @@
 		1EFBFBF66D17C00468679688 /* Pods_Nike_Collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB11E4FF2FC170C4992A4F42 /* Pods_Nike_Collection.framework */; };
 		900C7B81883753676FBA3135 /* Pods_Nike_CollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED2CF41C4E6ED6D638D68F1 /* Pods_Nike_CollectionUITests.framework */; };
 		A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632551F84B66100B80078 /* AppDelegate.swift */; };
-		A5D632581F84B66100B80078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632571F84B66100B80078 /* ViewController.swift */; };
 		A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D632591F84B66100B80078 /* Main.storyboard */; };
 		A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D6325C1F84B66100B80078 /* Assets.xcassets */; };
 		A5D632601F84B66100B80078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D6325E1F84B66100B80078 /* LaunchScreen.storyboard */; };
 		A5D6326B1F84B66100B80078 /* Nike_CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D6326A1F84B66100B80078 /* Nike_CollectionTests.swift */; };
 		A5D632761F84B66200B80078 /* Nike_CollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632751F84B66200B80078 /* Nike_CollectionUITests.swift */; };
+		A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632871F84F51200B80078 /* PromoContentViewController.swift */; };
+		A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632891F84F52D00B80078 /* HomeViewController.swift */; };
+		A5D6328C1F84F80F00B80078 /* LeBronDunkContest.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5D632831F84F47400B80078 /* LeBronDunkContest.gif */; };
+		A5D6328D1F84F80F00B80078 /* hyper.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5D632851F84F48B00B80078 /* hyper.gif */; };
+		A5D6328E1F84F80F00B80078 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5D632841F84F48100B80078 /* giphy.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +48,6 @@
 		9B5D933400FB08A4403A0F23 /* Pods-Nike CollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionTests/Pods-Nike CollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5D632521F84B66100B80078 /* Nike Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D632551F84B66100B80078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5D632571F84B66100B80078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5D6325A1F84B66100B80078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5D6325C1F84B66100B80078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D6325F1F84B66100B80078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +58,11 @@
 		A5D632711F84B66100B80078 /* Nike CollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nike CollectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D632751F84B66200B80078 /* Nike_CollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_CollectionUITests.swift; sourceTree = "<group>"; };
 		A5D632771F84B66200B80078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D632831F84F47400B80078 /* LeBronDunkContest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LeBronDunkContest.gif; sourceTree = "<group>"; };
+		A5D632841F84F48100B80078 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		A5D632851F84F48B00B80078 /* hyper.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hyper.gif; sourceTree = "<group>"; };
+		A5D632871F84F51200B80078 /* PromoContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
+		A5D632891F84F52D00B80078 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB11E4FF2FC170C4992A4F42 /* Pods_Nike_Collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_Collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCF29D8B2E3ADB96F7D64F3 /* Pods_Nike_CollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_CollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B2A58543EA379806865AB0 /* Pods-Nike CollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionUITests/Pods-Nike CollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,11 +132,12 @@
 		A5D632541F84B66100B80078 /* Nike Collection */ = {
 			isa = PBXGroup;
 			children = (
+				A5D6328B1F84F53700B80078 /* controllers */,
 				A5D632551F84B66100B80078 /* AppDelegate.swift */,
-				A5D632571F84B66100B80078 /* ViewController.swift */,
 				A5D632591F84B66100B80078 /* Main.storyboard */,
 				A5D6325C1F84B66100B80078 /* Assets.xcassets */,
 				A5D6325E1F84B66100B80078 /* LaunchScreen.storyboard */,
+				A5D632861F84F49600B80078 /* assist */,
 				A5D632611F84B66100B80078 /* Info.plist */,
 			);
 			path = "Nike Collection";
@@ -150,6 +159,25 @@
 				A5D632771F84B66200B80078 /* Info.plist */,
 			);
 			path = "Nike CollectionUITests";
+			sourceTree = "<group>";
+		};
+		A5D632861F84F49600B80078 /* assist */ = {
+			isa = PBXGroup;
+			children = (
+				A5D632831F84F47400B80078 /* LeBronDunkContest.gif */,
+				A5D632851F84F48B00B80078 /* hyper.gif */,
+				A5D632841F84F48100B80078 /* giphy.gif */,
+			);
+			path = assist;
+			sourceTree = "<group>";
+		};
+		A5D6328B1F84F53700B80078 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5D632871F84F51200B80078 /* PromoContentViewController.swift */,
+				A5D632891F84F52D00B80078 /* HomeViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		D082C843D52BCDD4982D30D1 /* Pods */ = {
@@ -281,6 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D6328C1F84F80F00B80078 /* LeBronDunkContest.gif in Resources */,
+				A5D6328D1F84F80F00B80078 /* hyper.gif in Resources */,
+				A5D6328E1F84F80F00B80078 /* giphy.gif in Resources */,
 				A5D632601F84B66100B80078 /* LaunchScreen.storyboard in Resources */,
 				A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */,
 				A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */,
@@ -446,8 +477,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D632581F84B66100B80078 /* ViewController.swift in Sources */,
+				A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */,
 				A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */,
+				A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@
         <!--Nike Collection-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nike_Collection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Nike_Collection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Main View">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,11 +24,14 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4q-Zj-JUc" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="750"/>
                                         <subviews>
-                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyy-sH-W5v">
+                                            <containerView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyy-sH-W5v">
                                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="350"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="350" id="RVp-TJ-vse"/>
                                                 </constraints>
+                                                <connections>
+                                                    <segue destination="pUf-tM-mfW" kind="embed" id="wuB-x6-6GK"/>
+                                                </connections>
                                             </containerView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DRW-Bi-AfQ" userLabel="Newest Collection View">
                                                 <rect key="frame" x="0.0" y="380" width="682.5" height="170"/>
@@ -182,10 +185,53 @@
                     </view>
                     <navigationItem key="navigationItem" title="Nike Collection" largeTitleDisplayMode="always" id="cdG-qI-oa4"/>
                     <size key="freeformSize" width="1024" height="900"/>
+                    <connections>
+                        <outlet property="pageView" destination="fyy-sH-W5v" id="Qiu-Zc-9Dk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="261.9140625" y="133.59375"/>
+        </scene>
+        <!--Promo Content View Controller-->
+        <scene sceneID="jrT-4P-qrz">
+            <objects>
+                <viewController storyboardIdentifier="promoContentVC" id="d1U-s5-YcW" customClass="PromoContentViewController" customModule="Nike_Collection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OUo-oP-hgr">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="350"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ujg-sj-nnE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="8LU-6u-avf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ujg-sj-nnE" firstAttribute="trailing" secondItem="n6z-lx-CTP" secondAttribute="trailing" id="K7q-je-cm4"/>
+                            <constraint firstItem="ujg-sj-nnE" firstAttribute="leading" secondItem="n6z-lx-CTP" secondAttribute="leading" id="qY9-ag-Qaq"/>
+                            <constraint firstItem="ujg-sj-nnE" firstAttribute="top" secondItem="OUo-oP-hgr" secondAttribute="top" id="xta-B1-G4y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="n6z-lx-CTP"/>
+                    </view>
+                    <size key="freeformSize" width="1024" height="350"/>
+                    <connections>
+                        <outlet property="promoImageView" destination="ujg-sj-nnE" id="uXf-n8-icy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RsO-aQ-xfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965.62499999999989" y="-76.5625"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="Dmy-PM-G7W">
+            <objects>
+                <pageViewController storyboardIdentifier="promoPageVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="pUf-tM-mfW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLg-K9-QRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952" y="460"/>
         </scene>
         <!--Item-->
         <scene sceneID="go6-GR-KFB">
