@@ -14,7 +14,7 @@ class HomeViewController: UIViewController,UIPageViewControllerDataSource {
     @IBOutlet weak var pageView: UIView!
     
     @IBOutlet weak var pageControl: UIPageControl!
-    
+
     
     // aim to get promoPageVC in Storyboard
     var pageViewController: UIPageViewController?
@@ -35,9 +35,7 @@ class HomeViewController: UIViewController,UIPageViewControllerDataSource {
         
         //set container view
         setPageViewController()
-        
-    
-    
+ 
     }
 
     override func didReceiveMemoryWarning() {
@@ -69,7 +67,7 @@ extension HomeViewController{
     }
   
     //set container view
-    private func setPageViewController(){
+    fileprivate func setPageViewController(){
         
         let pageVC = self.storyboard?.instantiateViewController(withIdentifier: "promoPageVC") as! UIPageViewController
         
@@ -92,11 +90,8 @@ extension HomeViewController{
         
         
         //add the pageViewController as the subClass of HomeViewController
-    self.pageView.addSubview((self.pageViewController?.view)!)
+self.pageView.addSubview(self.pageViewController!.view)
     self.pageViewController?.didMove(toParentViewController: self)
-       
-        
-        
     }
     
     //get gif pics
@@ -172,12 +167,6 @@ extension HomeViewController{
         
         return getViewControlller(atIndex: index)
     }
-    
-
-   
- 
-    
-    
 }
 
 

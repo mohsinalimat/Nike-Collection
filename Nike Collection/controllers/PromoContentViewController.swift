@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import SwiftyGif
+
 
 class PromoContentViewController: UIViewController {
 
@@ -24,7 +24,7 @@ class PromoContentViewController: UIViewController {
         // Do any additional setup after loading the view.
         
        //set .gif file into image view
-       //setPromoImageViewContent()
+       setPromoImageViewContent()
         
         
     }
@@ -41,13 +41,14 @@ class PromoContentViewController: UIViewController {
 extension PromoContentViewController{
     
 //set .gif file into image view
- /*
+ 
     fileprivate func setPromoImageViewContent(){
         if let currentImage = imageName{
             let gifImage = UIImage(gifName: currentImage)
             self.promoImageView.setGifImage(gifImage, manager: SwiftyGifManager(memoryLimit:60), loopCount: -1)
+            //self.promoImageView.image = gifImage!
         }
         
     }
- */
+ 
 }

@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		12905CFF51DAB4D4A53C83FB /* Pods_Nike_CollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCF29D8B2E3ADB96F7D64F3 /* Pods_Nike_CollectionTests.framework */; };
 		900C7B81883753676FBA3135 /* Pods_Nike_CollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED2CF41C4E6ED6D638D68F1 /* Pods_Nike_CollectionUITests.framework */; };
-		A5844C9E1FA80C39005E7DFE /* Lebron.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5844C9D1FA80C31005E7DFE /* Lebron.gif */; };
+		A57B28451FAC7C2C00F2F88A /* Fuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC251FA6EEA6005DE595 /* Fuck.gif */; };
+		A57B28461FAC7C2C00F2F88A /* Lebron.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5844C9D1FA80C31005E7DFE /* Lebron.gif */; };
+		A57B28471FAC7C2C00F2F88A /* Jordan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC231FA6EA4B005DE595 /* Jordan.gif */; };
+		A57B284B1FAC7CE600F2F88A /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */; };
+		A57B284C1FAC7CE600F2F88A /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */; };
+		A57B284D1FAC7CE600F2F88A /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */; };
 		A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */; };
-		A58EAC241FA6EA5E005DE595 /* Jordan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC231FA6EA4B005DE595 /* Jordan.gif */; };
-		A58EAC261FA6EEAE005DE595 /* Fuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC251FA6EEA6005DE595 /* Fuck.gif */; };
 		A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632551F84B66100B80078 /* AppDelegate.swift */; };
 		A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D632591F84B66100B80078 /* Main.storyboard */; };
 		A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D6325C1F84B66100B80078 /* Assets.xcassets */; };
@@ -46,6 +49,9 @@
 		7E340B68E7AFF60BC918D5CF /* Pods-Nike CollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionUITests/Pods-Nike CollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C866634AD9FAEB93789A121 /* Pods-Nike Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike Collection.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nike Collection/Pods-Nike Collection.release.xcconfig"; sourceTree = "<group>"; };
 		9B5D933400FB08A4403A0F23 /* Pods-Nike CollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionTests/Pods-Nike CollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
 		A5844C9D1FA80C31005E7DFE /* Lebron.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lebron.gif; sourceTree = "<group>"; };
 		A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		A58EAC231FA6EA4B005DE595 /* Jordan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Jordan.gif; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 			isa = PBXGroup;
 			children = (
 				A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */,
+				A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */,
+				A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */,
+				A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */,
 			);
 			path = "Assist Part";
 			sourceTree = "<group>";
@@ -315,9 +324,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5844C9E1FA80C39005E7DFE /* Lebron.gif in Resources */,
-				A58EAC261FA6EEAE005DE595 /* Fuck.gif in Resources */,
-				A58EAC241FA6EA5E005DE595 /* Jordan.gif in Resources */,
+				A57B28451FAC7C2C00F2F88A /* Fuck.gif in Resources */,
+				A57B28461FAC7C2C00F2F88A /* Lebron.gif in Resources */,
+				A57B28471FAC7C2C00F2F88A /* Jordan.gif in Resources */,
 				A5D632601F84B66100B80078 /* LaunchScreen.storyboard in Resources */,
 				A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */,
 				A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */,
@@ -442,6 +451,9 @@
 				A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */,
 				A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */,
 				A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */,
+				A57B284C1FAC7CE600F2F88A /* UIImage+SwiftyGif.swift in Sources */,
+				A57B284D1FAC7CE600F2F88A /* SwiftyGifManager.swift in Sources */,
+				A57B284B1FAC7CE600F2F88A /* UIImageView+SwiftyGif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

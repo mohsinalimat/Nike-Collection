@@ -141,16 +141,15 @@
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="M96-xv-ad2">
+                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="8hg-JQ-4Uh">
                                                 <rect key="frame" x="493" y="313" width="39" height="37"/>
-                                                <color key="pageIndicatorTintColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="pageIndicatorTintColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="currentPageIndicatorTintColor" red="1" green="0.57647058819999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </pageControl>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="750" id="5mP-PW-eZ6"/>
-                                            <constraint firstItem="M96-xv-ad2" firstAttribute="bottom" secondItem="fyy-sH-W5v" secondAttribute="bottom" id="7za-v9-1ji"/>
                                             <constraint firstItem="jv6-Nw-4r4" firstAttribute="top" secondItem="fyy-sH-W5v" secondAttribute="bottom" constant="15" id="9UV-a9-rb7"/>
                                             <constraint firstItem="Hqe-su-EYX" firstAttribute="top" secondItem="DRW-Bi-AfQ" secondAttribute="bottom" constant="5" id="BS0-I7-nGv"/>
                                             <constraint firstItem="DRW-Bi-AfQ" firstAttribute="width" secondItem="G4q-Zj-JUc" secondAttribute="width" multiplier="2:3" id="CaO-iH-hMM"/>
@@ -159,14 +158,15 @@
                                             <constraint firstAttribute="trailing" secondItem="fyy-sH-W5v" secondAttribute="trailing" id="JGl-qT-8Ap"/>
                                             <constraint firstItem="jWG-LQ-ahY" firstAttribute="baseline" secondItem="DRW-Bi-AfQ" secondAttribute="baseline" id="O9T-ae-pOz"/>
                                             <constraint firstItem="COu-ab-UbZ" firstAttribute="top" secondItem="cwn-DS-0zt" secondAttribute="bottom" constant="-15" id="PK4-Zs-fk1"/>
+                                            <constraint firstItem="8hg-JQ-4Uh" firstAttribute="centerX" secondItem="G4q-Zj-JUc" secondAttribute="centerX" id="PNX-4D-1y5"/>
                                             <constraint firstItem="Hqe-su-EYX" firstAttribute="leading" secondItem="G4q-Zj-JUc" secondAttribute="leading" constant="15" id="QJd-Rx-kZQ"/>
                                             <constraint firstAttribute="trailing" secondItem="jWG-LQ-ahY" secondAttribute="trailing" id="Rse-94-N7c"/>
-                                            <constraint firstItem="M96-xv-ad2" firstAttribute="centerX" secondItem="G4q-Zj-JUc" secondAttribute="centerX" id="TNy-X4-MOQ"/>
                                             <constraint firstItem="jv6-Nw-4r4" firstAttribute="leading" secondItem="G4q-Zj-JUc" secondAttribute="leading" constant="15" id="Y4f-ea-32P"/>
                                             <constraint firstItem="COu-ab-UbZ" firstAttribute="height" secondItem="DRW-Bi-AfQ" secondAttribute="height" id="YpJ-zQ-ReJ"/>
                                             <constraint firstItem="DRW-Bi-AfQ" firstAttribute="leading" secondItem="G4q-Zj-JUc" secondAttribute="leading" id="a0p-3G-sCh"/>
                                             <constraint firstItem="DRW-Bi-AfQ" firstAttribute="top" secondItem="fyy-sH-W5v" secondAttribute="bottom" constant="30" id="aiV-FA-ttD"/>
                                             <constraint firstItem="fyy-sH-W5v" firstAttribute="leading" secondItem="G4q-Zj-JUc" secondAttribute="leading" id="cND-bW-BPR"/>
+                                            <constraint firstItem="8hg-JQ-4Uh" firstAttribute="bottom" secondItem="fyy-sH-W5v" secondAttribute="bottom" id="csR-l3-nzS"/>
                                             <constraint firstItem="cwn-DS-0zt" firstAttribute="leading" secondItem="jv6-Nw-4r4" secondAttribute="leading" id="ggU-om-CPu"/>
                                             <constraint firstItem="cwn-DS-0zt" firstAttribute="top" secondItem="Hqe-su-EYX" secondAttribute="bottom" constant="8" id="jRE-jj-aLt"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cwn-DS-0zt" secondAttribute="trailing" constant="20" symbolic="YES" id="nyq-EF-5n2"/>
@@ -199,7 +199,7 @@
                     <navigationItem key="navigationItem" title="Nike Collection" largeTitleDisplayMode="always" id="cdG-qI-oa4"/>
                     <size key="freeformSize" width="1024" height="900"/>
                     <connections>
-                        <outlet property="pageControl" destination="M96-xv-ad2" id="tg7-BN-A9G"/>
+                        <outlet property="pageControl" destination="8hg-JQ-4Uh" id="4qM-iQ-Q1e"/>
                         <outlet property="pageView" destination="fyy-sH-W5v" id="Qiu-Zc-9Dk"/>
                     </connections>
                 </viewController>
