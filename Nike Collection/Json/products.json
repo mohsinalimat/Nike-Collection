@@ -1,0 +1,357 @@
+{
+    "products": [{
+                 "id": "379937-010",
+                 "type": "Jackets",
+                 "regularPrice": 878.99,
+                 "salePrice": 877.99,
+                 "name": "Jordan Memorial Hall of Fame Jacket",
+                 "Condition": "New with tags",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan Achievement 1.jpg", "Jordan Achievement 2.jpg", "Jordan Achievement 3.jpg", "Jordan Achievement 4.jpg", "Jordan Achievement 5.jpg"
+                            ],
+                 "manufacturerId": 1,
+                 "manufacturerName": "Hall of Fame",
+                 "modelNumber": "379937-010",
+                 "quantity": 15,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "This jacket is for the Jordan Memorial Hall of Fame Colllection.",
+                 "description1": "Michael Jordan personified greatness on the court, and redefined superstar athlete off it. His freshman season at UNC culminated with Jordan hitting the game-winning shot in the 1982 NCAA national title game. That shot put Michael on the map and a new era was born. Following his junior year, Jordan entered the NBA Draft and was selected third overall by the Chicago Bulls. The young superstar began stockpiling NBA hardware.",
+                 "description2": "The court was his and the world soon followed. His unmistakable style - the wagging tongue, the baggy shorts, the signature line of sneakers - helped make the 14-time All Star the most recognizable person on the planet. Still his resume lacked an NBA title. ",
+                 "description3": "Then in 1991, the Jordan-led Bulls launched an all-out assault on the rest of the league winning three straight world championships. Michael won Olympic gold again in 1992 and then in 1993 abruptly retired from the Bulls to play minor league baseball. He returned to the NBA full-time in 1995 and the Bulls promptly won three consecutive titles. Jordan was named Finals MVP each time. In 2001, Jordan made a second improbable comeback and still averaged 20 points per game and appeared in the 2002 and 2003 All Star Games."
+                 },
+                 {
+                 "id": "715837-010",
+                 "type": "Jackets",
+                 "regularPrice": 677.99,
+                 "salePrice": 657.99,
+                 "name": "Jordan II Jacket",
+                 "Condition": "New with tags",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan II Jacket 1.jpg", "Jordan II Jacket 2.jpg", "Jordan II Jacket 3.jpg", "Jordan II Jacket 4.jpg", "Jordan II Jacket 5.jpg"
+                            ],
+                 "manufacturerId": 1,
+                 "manufacturerName": "Jordan II",
+                 "modelNumber": "715837-010",
+                 "quantity": 0,
+                 "rating": 3,
+                 "Brand": "Jordan",
+                 "summary": "Coming off the heels of the Just Don x Air Jordan 2 Retro announcement, news has surfaced of a corresponding bomber jacket that will bear a few of the same visual trappings as the hotly anticipated sneaker release. Like the Royal Blue quilted shoe, the premium leather jacket – with MJ’s signature strewn across the back – has hits of the aforementioned color garnish the elastic cuffs, while the classic ‘Wings’ logo fastens itself onto each shoulder. While you’re waiting for the sneaker to drop, get your hands on the jacket first from select retailers like Wish.",
+                 "description1": "Coming off the heels of the Just Don x Air Jordan 2 Retro announcement, news has surfaced of a corresponding bomber jacket that will bear a few of the same visual trappings as the hotly anticipated sneaker release. Like the Royal Blue quilted shoe, the premium leather jacket – with MJ’s signature strewn across the back – has hits of the aforementioned color garnish the elastic cuffs, while the classic ‘Wings’ logo fastens itself onto each shoulder. While you’re waiting for the sneaker to drop, get your hands on the jacket first from select retailers like Wish."
+                 },
+                 {
+                 "id": "356023-010",
+                 "type": "Jackets",
+                 "regularPrice": 799.99,
+                 "salePrice": 789.99,
+                 "name": "Jordan Lamb",
+                 "Condition": "New with tags",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan Lamb 1.jpg", "Jordan Lamb 2.jpg", "Jordan Lamb 3.jpg", "Jordan Lamb 4.jpg", "Jordan Lamb 5.jpg"
+                            ],
+                 "manufacturerId": 1,
+                 "manufacturerName": "Lamb",
+                 "modelNumber": "356023-010",
+                 "quantity": 3,
+                 "rating": 4,
+                 "Brand": "Jordan",
+                 "summary": "Very Rare and Hard to find!!!Get it while you still can!!! This jacket is very soft and very very RARE!!! It came out a few years ago and I have been storing it neatly in the closet!!! Just never wore it. Tried on briefly and that's about it!!!",
+                 "description1": "This Nike all-leather body jacket brings the a classic leather jacket up to speed with this ultra comfortable, ultra-durable fashion jacket that provides that quality stylish look. This can be worn smart or casual and for any occasion, but be sure to stand out with this limited edition Jordan Jacket. Key Features: - Adjustable cuffs for a snug and durable fit - Zip-up closure - 2 zip pockets for storage purposes - High quality leather allover with - Air Jordan Jumpman logo on the front - Nike Air Jordan logo tag on the left hand side - Embossed panels to add defining detail to the jacket",
+                 "description3": "DOUBLE BOX WHEN SHIPPED/FREE INSURANCE SIGNATURE CONFIRMATION HURRY AND GRAB THIS WHILE YOU CAN!!!"
+                 },
+                 {
+                 "id": "694029-010",
+                 "type": "Jackets",
+                 "regularPrice": 699.99,
+                 "salePrice": 649.99,
+                 "name": "Jordan Westbrook Jacket",
+                 "Condition": "New with tags",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan Westbrook 1.jpg", "Jordan Westbrook 2.jpg", "Jordan Westbrook 3.jpg", "Jordan Westbrook 4.jpg", "Jordan Westbrook 5.jpg"
+                            ],
+                 "manufacturerId": 1,
+                 "manufacturerName": "Jordan Westbrook",
+                 "modelNumber": "694029-010",
+                 "quantity": 16,
+                 "rating": 4,
+                 "Brand": "Westbrook",
+                 "summary": "Collaborative varsitiy jacket from Jordan featuring Russel Westbrook for Barneys NY. Body with Elephant print fading from navy at shoulders to yellow at hem. Front zip closure, two front pockets. Navy colored satin blend sleeves with tonal cuffs."
+                 },
+                 {
+                 "id": "802400-001",
+                 "type": "Shoes",
+                 "regularPrice": 1077.99,
+                 "salePrice": 1069.99,
+                 "name": "Jordan XX9 MTH ",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "Jordan XX9 MTM 1.jpg", "Jordan XX9 MTM 2.jpg", "Jordan XX9 MTM 3.jpg", "Jordan XX9 MTM 4.jpg", "Jordan XX9 MTM 5.jpg"
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "Jordan XX9",
+                 "modelNumber": "802400-001",
+                 "quantity": 7,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "The Air Jordan 29 “MTM” released in celebration of Jordan Brand’s 30th anniversary. The “MTM” AJ 29 released in a pack along with the Air Jordan 1 “MTM”. Originally released in 2015, the Air Jordan 29 “MTM” featured a high-quality black leather upper to compliment the distinctive performance outsole.",
+                 "description1": "Here is the Air Jordan “MTM” Pack that was given to President Barack Obama during his visit to Nike Headquarters in Beaverton earlier this year.The duo of shoes was designed by Mark Parker, Tinker Hatfield and Michael Jordan, hence the initials “MTM”, and consists of the Air Jordan 1 and Air Jordan 29. In this pack we’re seeing both silhouettes kind of trade places in a way that we’ve never seen them before. The Air Jordan 29 ditches the traditional performance woven upper and uses leather, which is typically used on the Air Jordan 1. A full Black upper colors the kicks with University Red accents adding a nice pop. Then the Air Jordan 1 goes for a Black performance woven upper, that we traditionally see used on the Air Jordan 29. White and University Red accents complete the second offering from this pack."
+                 },
+                 {
+                 "id": "649501-100",
+                 "type": "Shoes",
+                 "regularPrice": 899.99,
+                 "salePrice": 766.99,
+                 "name": "Jordan XX8 Bamboo",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "Jordan XX8 Bamboo 1.jpg","Jordan XX8 Bamboo 2.jpg","Jordan XX8 Bamboo 3.jpg","Jordan XX8 Bamboo 4.jpg"
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "Bamboo",
+                 "modelNumber": "649501-100",
+                 "quantity": 7,
+                 "rating": 3,
+                 "Brand": "Jordan",
+                 "summary": "Inspired by the spirit of New Orleans and love for the game of basketball, the Gold Collection utilizes a simple black-and-white color palette offset by antique gold. Intricate graphics honor the city’s prominent wrought ironwork found on French Quarter balconies. The fashion-forward collection features premium materials such as waxed cotton and leather, created with cut-and-sew construction.",
+                 "description1": "A highlight of the pinnacle assortment is the AIR JORDAN XX8 featuring an all-white perforated upper and bamboo heel counter, underpinned by the brand’s performance Flight Plate technology. As Tinker Hatfield’s last AIR JORDAN XX8 design, this colorway boasts an ultra-modern stealth design without compromising the elite performance elements in the most technologically advanced Air Jordan to date.",
+                 "description2": "The Air Jordan XX8 “Bamboo” is the center piece of Jordan Brand’s new “Crescent City Gold” collection, which pays tribute to the spirit of New Orleans. That pair, which is the last of Tinker Hatfield-crafted Jordan 28s, features a perforated with leather upper and a bamboo heel counter on the back side. The surrounding apparel ends up looking like some of the best the brand has ever come with thanks its fashion forward approach and modern silhouettes like the short sleeve hoodie and those zipper-equipped pants. See the full set after the break and look for the goods online now from Jordan Brand."
+                 },
+                 {
+                 "id": "311145-354",
+                 "type": "Shoes",
+                 "regularPrice": 2099.99,
+                 "salePrice": 2089.99,
+                 "name": "LeBron 20-5-5 Horsemen",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "LeBron 20-5-5 Horsemen 1.jpg"
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "Horsemen",
+                 "modelNumber": "311145-354",
+                 "quantity": 7,
+                 "rating": 5,
+                 "Brand": "Lebron",
+                 "summary": "We have already showcased 3 out of 5 shoes and today it’s time to present the most famous one – Nike Zoom 20-5-5 White/Gold/Navy PE. Every single 20-5-5 LeBron’s game PE features the Four Horsemen logo on the back of the shoe. It was the white and gold PE that LeBron chose for his first ever NBA Playoffs appearance. It was them that LeBron used on his way to a historic post-season performance scoring a Triple-Double in his playoff debut. Finally it is them that are one of the most desirable Nike LeBron signature shoes."
+                 },
+                 {
+                 "id": "mnbskt-111",
+                 "type": "Shoes",
+                 "regularPrice": 5999.99,
+                 "salePrice": 5999.00,
+                 "name": "Lebron X CHROME P.E",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "Lebron X CHROME P.E 1.jpg", "Lebron X CHROME P.E 2.jpg", "Lebron X CHROME P.E 3.jpg", "Lebron X CHROME P.E 4.jpg"
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "CHROME",
+                 "modelNumber": "mnbskt-111",
+                 "quantity": 1,
+                 "rating": 5,
+                 "Brand": "Lebron",
+                 "summary": "While we've seen LeBron himself ball in several different player exclusives, someone brought us back to the LeBron 10 with these exclusive shots of a true rarity. Sneaker collector Jarod Malnik has allowed us to share some of his heat before with you guys, but this time he even outdid himself as he gives us a detailed look at this version of the LeBron 10. ",
+                 "description1": "The fuse mesh retains the jet black color, giving the shoe a little balance. The midsole has a black/grey Cement look that compliments the shiny upper. A chrome red jeweled Swoosh provides all the branding needed on the upper while the toe's Swoosh is a deep red that matches the eyestays. The inner lining has the look of the Championship Pack Nike LeBron 10 Low and the wild, colorful pattern also is carried over to the outsole, providing an almost Fruity Pebbles look that is a welcome sight for the line."
+                 },
+                 {
+                 "id": "AA9794-023",
+                 "type": "Shoes",
+                 "regularPrice": 999.50,
+                 "salePrice": 980.50,
+                 "name": "Jordan XXXI RW",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "Jordan XXXI RW 1.jpg", "Jordan XXXI RW 2.jpg", "Jordan XXXI RW 3.jpg", "Jordan XXXI RW 4.jpg", "Jordan XXXI RW 5.jpg"
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "RW",
+                 "modelNumber": "AA9794-023",
+                 "quantity": 12,
+                 "rating": 5,
+                 "Brand": "Westbrook",
+                 "summary": "The Air Jordan XXX1 for Russell Westbrook’s MVP features a Black base with accents of Orange and Blue. Having a mismatched theme, around the heel is Reflective 3M which displays graphics of Westbrook. Other details include ‘Why’ and ’Not’ on the medial side and RW branding on the tongue.",
+                 "description1": "The Air Jordan XXX1 Russell Westbrook MVP released today, June 26th, 2017 right after his was announced the 2017 NBA MVP. They launched on Nike SNKRS, however it didn’t take long for them to sell out. Retail price is $185. You can also purchase a ‘Why Not 0’ t-shirt which is available now on Jordan.com. It’s highly unlikely a restock will happen, but if one does, we will make sure to update you. Check out more images by scrolling below."
+                 },
+                 {
+                 "id": "853336-023",
+                 "type": "Shoes",
+                 "regularPrice": 7999.79,
+                 "salePrice": 7998.50,
+                 "name": "Jordan XXIII Trophy Room Black",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "Jordan XXIII Trophy Room Black 1.jpg", "Jordan XXIII Trophy Room Black 2.jpg""Jordan XXIII Trophy Room Black 3.jpg", "Jordan XXIII Trophy Room Black 4.jpg", "Jordan XXIII Trophy Room Black 5.jpg",
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "Trophy Room Black",
+                 "modelNumber": "853336-023",
+                 "quantity": 3,
+                 "rating": 5,
+                 "Brand": "Trophy Room",
+                 "summary": "The Air Jordan 23 Trophy Room in the Black colorway is one of two upcoming colorways of Michael Jordan’s 23rd signature shoe. Limited to only 5,000 pairs, it will be more widely available than the uber-limited White and Gold pair (523 pairs).",
+                 "description1": "The Air Jordan 23 Trophy Room will come dressed in a combination of Black, Metallic Gold and Dark Grey. The Black upper is accented by the Gold hits. The most notable features on the shoe include the “HEIR JORDAN” lettering placed in the inner tongues of the shoes. Trophy Room logos are placed on the insoles as well as on the outsoles. Michael Jordan’s signature is placed all over the toe cap of the shoe, while a pattern utilizing his initials are placed on the majority of the shoe. Adding some contrast to the shoe is the translucent outsole Retailing at $275, these will be an online exclusive to the Trophy Room."
+                 },
+                 {
+                 "id": "853336-123",
+                 "type": "Shoes",
+                 "regularPrice": 8999.96,
+                 "salePrice": 8999.71,
+                 "name": "Jordan XXIII Trophy Room White",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "12",
+                 "images": [
+                            "Jordan XXIII Trophy Room White 1.jpg" , "Jordan XXIII Trophy Room White 2.jpg" , "Jordan XXIII Trophy Room White 3.jpg" , "Jordan XXIII Trophy Room White 4.jpg" , "Jordan XXIII Trophy Room White 5.jpg" ,
+                            ],
+                 "manufacturerId": 2,
+                 "manufacturerName": "Trophy Room White",
+                 "modelNumber": "853336-123",
+                 "quantity": 1,
+                 "rating": 5,
+                "Brand": "Trophy Room",
+                 "summary": "Trophy Room celebrated its massive grand opening with appearance by Michael Jordan, friends and family, and of course, the release of the Air Jordan XX3 “Trophy Room”. The white edition, limited to just 523 pairs worldwide, was exclusively available at Trophy Room and is completely sold out. The black edition is limited to 5,000 pairs and will release again on Saturday, May 28th at select retailers worldwide. We have both pairs in hand and would like to take this opportunity to show you both versions in detail."
+                 },
+                 {
+                 "id": "Personal Collection 1",
+                 "type": "Souvenirs",
+                 "regularPrice": 5000.97,
+                 "salePrice": 4999.97,
+                 "name": "For The Love Of The Game ",
+                 "Condition": "New",
+                 "US Size(Men's)": "Regular",
+                 "images": [
+                            "For The Love Of The Game 1.jpg" ,"For The Love Of The Game 2.jpg" ,"For The Love Of The Game 3.jpg" ,"For The Love Of The Game 4.jpg" ,"For The Love Of The Game 5.jpg" ,
+                            ],
+                 "manufacturerId": 3,
+                 "manufacturerName": "For The Love",
+                 "modelNumber": "Personal Collection",
+                 "quantity": 9,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "Paperback – Illustrated, 1998. 112 pages."
+                 },
+                 {
+                 "id": "Personal Collection 2",
+                 "type": "Souvenirs",
+                 "regularPrice": 6999.99,
+                 "salePrice": 6990.99,
+                 "name": "Jordan Cologne",
+                 "Condition": "New",
+                 "US Size(Men's)": "Regular",
+                 "images": [
+                            "Jordan Cologne 1.jpg" ,"Jordan Cologne 2.jpg" ,"Jordan Cologne 3.jpg" ,"Jordan Cologne 4.jpg" ,"Jordan Cologne 5.jpg" ,
+                            ],
+                 "manufacturerId": 3,
+                 "manufacturerName": "Cologne",
+                 "modelNumber": "Personal Collection",
+                 "quantity": 5,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "Michael Jordan by Michael Jordan is a Aromatic fragrance for men",
+                 "description1": "The nose behind this fragrance is Steve DE Mercado,Top notes are cypress, cognac, grapefruit, cedar needles, Brazilian rosewood, geranium and lemon"
+                 },
+                 {
+                 "id": "Personal Collection 3",
+                 "type": "Souvenirs",
+                 "regularPrice": 100.99,
+                 "salePrice": 100.07,
+                 "name": "Jordan Wings UD",
+                 "Condition": "New",
+                 "US Size(Men's)": "Regular",
+                 "images": [
+                            "Jordan Wings UD 1.jpg", "Jordan Wings UD 2.jpg", "Jordan Wings UD 3.jpg", "Jordan Wings UD 4.jpg", "Jordan Wings UD 5.jpg"
+                            ],
+                 "manufacturerId": 3,
+                 "manufacturerName": "Wings UD",
+                 "modelNumber": "Personal Collection",
+                 "quantity": 5,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "It is huge wallpaper, and total size width is 20 m"
+                 },
+                 {
+                 "id": "BB0326-267",
+                 "type": "Souvenirs",
+                 "regularPrice": 9999.99,
+                 "salePrice": 9999.07,
+                 "name": "Jordan XXiii Basketball",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "Size 7",
+                 "images": [
+                            "Jordan XXiii Basketball 1.jpg", "Jordan XXiii Basketball 2.jpg", "Jordan XXiii Basketball 3.jpg", "Jordan XXiii Basketball 4.jpg", "Jordan XXiii Basketball 5.jpg"
+                            ],
+                 "manufacturerId": 3,
+                 "manufacturerName": "XXiii Basketball",
+                 "modelNumber": "BB0326-267",
+                 "quantity": 5,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "It is a basketball ball for Jordan, but it is only for colletion because it is so smooth !"
+                 },
+                 {
+                 "id": "B06Y1397SC",
+                 "type": "Shorts",
+                 "regularPrice": 999.99,
+                 "salePrice": 999.07,
+                 "name": "Jordan 96-97 Short",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan 96-97 Short 1.jpg", "Jordan 96-97 Short 2.jpg", "Jordan 96-97 Short 3.jpg", "Jordan 96-97 Short 4.jpg", "Jordan 96-97 Short 5.jpg"
+                            ],
+                 "manufacturerId": 4,
+                 "manufacturerName": "Jordan 96-97",
+                 "modelNumber": "B06Y1397SC",
+                 "quantity": 5,
+                 "rating": 5,
+                 "Brand": "Mitchell & Ness",
+                 "summary": "Get in the game with these Mitchell & Ness Authentic Men's premium mesh shorts. Made with the exact specifications of the original on-court shorts, they feature team logos at the side vents, cotton drawstring at the inner waistband, 2x2 rib knit waistband, embroidered NBA logo at the lower left leg, embroidered year and team name on inside waistband and are made of 100% polyester 2-ply textured mesh. Officially licensed by the NBA."
+                 },
+                 {
+                 "id": "369PA3B5I97BCU",
+                 "type": "Shorts",
+                 "regularPrice": 1000.99,
+                 "salePrice": 1000.07,
+                 "name": "Jordan 97-98 Short",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan 97-98 Short 1.jpg", "Jordan 97-98 Short 2.jpg", "Jordan 97-98 Short 3.jpg", "Jordan 97-98 Short 4.jpg", "Jordan 97-98 Short 5.jpg"
+                            ],
+                 "manufacturerId": 4,
+                 "manufacturerName": "Jordan 97-98",
+                 "modelNumber": "369PA3B5I97BCU",
+                 "quantity": 5,
+                 "rating": 5,
+                 "Brand": "Mitchell & Ness",
+                 "summary": "Get in the game with these Mitchell & Ness Authentic Men's premium mesh shorts. Made with the exact specifications of the original on-court shorts, they feature team logos at the side vents, cotton drawstring at the inner waistband, 2x2 rib knit waistband, embroidered NBA logo at the lower left leg, embroidered year and team name on inside waistband and are made of 100% polyester 2-ply textured mesh. Officially licensed by the NBA."
+                 },
+                 {
+                 "id": "657926-010",
+                 "type": "Shorts",
+                 "regularPrice": 5999.99,
+                 "salePrice": 5999.07,
+                 "name": "Jordan New Orleans",
+                 "Condition": "New with box",
+                 "US Size(Men's)": "XXL",
+                 "images": [
+                            "Jordan New Orleans 1.jpg", "Jordan New Orleans 2.jpg", "Jordan New Orleans 3.jpg", "Jordan New Orleans 4.jpg", "Jordan New Orleans 5.jpg"
+                            ],
+                 "manufacturerId": 4,
+                 "manufacturerName": "New Orleans",
+                 "modelNumber": "657926-010",
+                 "quantity": 5,
+                 "rating": 5,
+                 "Brand": "Jordan",
+                 "summary": "This is for wetbrook New Orleans in NBA All-Star game collection.Very Rare and Hard to find!!!Get it while you still can!!! This short is very soft and very very RARE!!! It came out a few years ago and I have been storing it neatly in the closet!!!"
+                 }]
+}
