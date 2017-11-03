@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftyGif
+//import SwiftyGif
 
 class PromoContentViewController: UIViewController {
 
@@ -23,10 +23,8 @@ class PromoContentViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        if let currentImage = imageName{
-            let gifImage = UIImage(gifName: currentImage)
-            self.promoImageView.setGifImage(gifImage, manager: SwiftyGifManager(memoryLimit:60), loopCount: -1)
-        }
+       //set .gif file into image view
+       //setPromoImageViewContent()
         
         
     }
@@ -37,14 +35,19 @@ class PromoContentViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+//custom functions:
+extension PromoContentViewController{
+    
+//set .gif file into image view
+ /*
+    fileprivate func setPromoImageViewContent(){
+        if let currentImage = imageName{
+            let gifImage = UIImage(gifName: currentImage)
+            self.promoImageView.setGifImage(gifImage, manager: SwiftyGifManager(memoryLimit:60), loopCount: -1)
+        }
+        
     }
-    */
-
+ */
 }

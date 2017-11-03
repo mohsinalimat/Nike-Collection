@@ -8,22 +8,36 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController,UIPageViewControllerDataSource {
 
     
     @IBOutlet weak var pageView: UIView!
     
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+    
+    // aim to get promoPageVC in Storyboard
     var pageViewController: UIPageViewController?
     
-    ///initialize assests PDF images
-    let arrPageImage = ["LeBronDunkContest","hyper","giphy"]
+    // initialize assests PDF images
+    let arrPageImage = ["Jordan", "Lebron", "Fuck"]
+    
+    // use this in automatic sliding feature function
+    var currentIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        //set page slide automatically 3.0 seconds
+        pageSlideRunTimes()
+        
+        //set container view
         setPageViewController()
+        
+    
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -44,9 +58,17 @@ class HomeViewController: UIViewController {
 
 }
 
-
+//custom functions
 extension HomeViewController{
     
+    //run loadNextController function 3.0 seconds
+    fileprivate func pageSlideRunTimes(){
+        
+        Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(HomeViewController.loadNextController), userInfo: nil, repeats: true)
+        
+    }
+  
+    //set container view
     private func setPageViewController(){
         
         let pageVC = self.storyboard?.instantiateViewController(withIdentifier: "promoPageVC") as! UIPageViewController
@@ -54,26 +76,30 @@ extension HomeViewController{
         pageVC.dataSource = self
         
         let firstControlller = getViewControlller(atIndex: 0)
+       
         
-        //let page slide
+        //set the page content initialization
         pageVC.setViewControllers([firstControlller], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
+        // if play Double sides , there will need two controllers in controller array
         
-        //pageVC references pageViewController
+        
+        //assign to pageViewController property
         self.pageViewController = pageVC
         
         
-        //embed pageVC
+        //add to pageViewController to HomeViewController
         self.addChildViewController(pageViewController!)
         
-        //pageVC should be inside the Container View
-        self.pageView.addSubview((self.pageViewController?.view)!)
         
-        //make sure pageVC ParentController -HomeViewController
-        self.pageViewController?.didMove(toParentViewController: self)
+        //add the pageViewController as the subClass of HomeViewController
+    self.pageView.addSubview((self.pageViewController?.view)!)
+    self.pageViewController?.didMove(toParentViewController: self)
+       
         
         
     }
     
+    //get gif pics
     fileprivate func getViewControlller(atIndex index: Int) -> PromoContentViewController{
         
         let promoContentVC = self.storyboard?.instantiateViewController(withIdentifier: "promoContentVC") as! PromoContentViewController
@@ -85,18 +111,39 @@ extension HomeViewController{
         
     }
     
+    //make page slide by itself
+    @objc private func loadNextController(){
+        
+        currentIndex += 1
+        
+        //when currentIndex is 2, and it plus 1 will euqals to 3,but 3 is not in arrPageImage index
+        if currentIndex == arrPageImage.count{
+            currentIndex = 0
+        }
+        
+        let nextControler = getViewControlller(atIndex: currentIndex)
+        
+        //set the viewContrller to display
+        self.pageViewController?.setViewControllers([nextControler], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
+       
+        //currentPage equals to currentIndex
+        self.pageControl.currentPage = currentIndex
+    }
     
 }
 
 
-extension HomeViewController: UIPageViewControllerDataSource{
+
+
+//pageVC - datasource
+extension HomeViewController{
     
     //viewControllerBefore - the silde order is from right to left
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         let pageContentVC = viewController as! PromoContentViewController
         var index = pageContentVC.pageIndex
         
-        //make image slide order in |0|1|2 |0|1|2 |0|1|2...
+        //make image slide order in |2|1|0 |2|1|0 |2|1|0...
         if (index == 0) || (index == NSNotFound){
             return getViewControlller(atIndex: arrPageImage.count - 1)
         }
@@ -106,11 +153,13 @@ extension HomeViewController: UIPageViewControllerDataSource{
         return getViewControlller(atIndex: index)
     }
     
+    
     //viewControllerAfter - the silde order is from left to right
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         let pageContentVC = viewController as! PromoContentViewController
         var index = pageContentVC.pageIndex
         
+        //make image slide order in |0|1|2 |0|1|2 |0|1|2...
         if index == NSNotFound{
             return nil
         }
@@ -124,9 +173,9 @@ extension HomeViewController: UIPageViewControllerDataSource{
         return getViewControlller(atIndex: index)
     }
     
-    
-    
-    
+
+   
+ 
     
     
 }

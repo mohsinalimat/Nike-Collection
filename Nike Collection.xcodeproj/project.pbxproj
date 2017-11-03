@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		12905CFF51DAB4D4A53C83FB /* Pods_Nike_CollectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCF29D8B2E3ADB96F7D64F3 /* Pods_Nike_CollectionTests.framework */; };
-		1EFBFBF66D17C00468679688 /* Pods_Nike_Collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB11E4FF2FC170C4992A4F42 /* Pods_Nike_Collection.framework */; };
 		900C7B81883753676FBA3135 /* Pods_Nike_CollectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED2CF41C4E6ED6D638D68F1 /* Pods_Nike_CollectionUITests.framework */; };
+		A5844C9E1FA80C39005E7DFE /* Lebron.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5844C9D1FA80C31005E7DFE /* Lebron.gif */; };
+		A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */; };
+		A58EAC241FA6EA5E005DE595 /* Jordan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC231FA6EA4B005DE595 /* Jordan.gif */; };
+		A58EAC261FA6EEAE005DE595 /* Fuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC251FA6EEA6005DE595 /* Fuck.gif */; };
 		A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632551F84B66100B80078 /* AppDelegate.swift */; };
 		A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D632591F84B66100B80078 /* Main.storyboard */; };
 		A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D6325C1F84B66100B80078 /* Assets.xcassets */; };
@@ -18,9 +21,6 @@
 		A5D632761F84B66200B80078 /* Nike_CollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632751F84B66200B80078 /* Nike_CollectionUITests.swift */; };
 		A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632871F84F51200B80078 /* PromoContentViewController.swift */; };
 		A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632891F84F52D00B80078 /* HomeViewController.swift */; };
-		A5D6328C1F84F80F00B80078 /* LeBronDunkContest.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5D632831F84F47400B80078 /* LeBronDunkContest.gif */; };
-		A5D6328D1F84F80F00B80078 /* hyper.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5D632851F84F48B00B80078 /* hyper.gif */; };
-		A5D6328E1F84F80F00B80078 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5D632841F84F48100B80078 /* giphy.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,10 @@
 		7E340B68E7AFF60BC918D5CF /* Pods-Nike CollectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionUITests/Pods-Nike CollectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C866634AD9FAEB93789A121 /* Pods-Nike Collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike Collection.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nike Collection/Pods-Nike Collection.release.xcconfig"; sourceTree = "<group>"; };
 		9B5D933400FB08A4403A0F23 /* Pods-Nike CollectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionTests/Pods-Nike CollectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5844C9D1FA80C31005E7DFE /* Lebron.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lebron.gif; sourceTree = "<group>"; };
+		A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		A58EAC231FA6EA4B005DE595 /* Jordan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Jordan.gif; sourceTree = "<group>"; };
+		A58EAC251FA6EEA6005DE595 /* Fuck.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fuck.gif; sourceTree = "<group>"; };
 		A5D632521F84B66100B80078 /* Nike Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D632551F84B66100B80078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D6325A1F84B66100B80078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,9 +62,6 @@
 		A5D632711F84B66100B80078 /* Nike CollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nike CollectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D632751F84B66200B80078 /* Nike_CollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nike_CollectionUITests.swift; sourceTree = "<group>"; };
 		A5D632771F84B66200B80078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5D632831F84F47400B80078 /* LeBronDunkContest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LeBronDunkContest.gif; sourceTree = "<group>"; };
-		A5D632841F84F48100B80078 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
-		A5D632851F84F48B00B80078 /* hyper.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hyper.gif; sourceTree = "<group>"; };
 		A5D632871F84F51200B80078 /* PromoContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
 		A5D632891F84F52D00B80078 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB11E4FF2FC170C4992A4F42 /* Pods_Nike_Collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_Collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFBFBF66D17C00468679688 /* Pods_Nike_Collection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +107,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A58EAC271FA6F7C6005DE595 /* Assist Part */ = {
+			isa = PBXGroup;
+			children = (
+				A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */,
+			);
+			path = "Assist Part";
+			sourceTree = "<group>";
+		};
 		A5D632491F84B66100B80078 = {
 			isa = PBXGroup;
 			children = (
@@ -132,13 +140,14 @@
 		A5D632541F84B66100B80078 /* Nike Collection */ = {
 			isa = PBXGroup;
 			children = (
-				A5D6328B1F84F53700B80078 /* controllers */,
 				A5D632551F84B66100B80078 /* AppDelegate.swift */,
+				A5D6328B1F84F53700B80078 /* controllers */,
 				A5D632591F84B66100B80078 /* Main.storyboard */,
 				A5D6325C1F84B66100B80078 /* Assets.xcassets */,
 				A5D6325E1F84B66100B80078 /* LaunchScreen.storyboard */,
-				A5D632861F84F49600B80078 /* assist */,
+				A5D632861F84F49600B80078 /* gif pics */,
 				A5D632611F84B66100B80078 /* Info.plist */,
+				A58EAC271FA6F7C6005DE595 /* Assist Part */,
 			);
 			path = "Nike Collection";
 			sourceTree = "<group>";
@@ -161,21 +170,21 @@
 			path = "Nike CollectionUITests";
 			sourceTree = "<group>";
 		};
-		A5D632861F84F49600B80078 /* assist */ = {
+		A5D632861F84F49600B80078 /* gif pics */ = {
 			isa = PBXGroup;
 			children = (
-				A5D632831F84F47400B80078 /* LeBronDunkContest.gif */,
-				A5D632851F84F48B00B80078 /* hyper.gif */,
-				A5D632841F84F48100B80078 /* giphy.gif */,
+				A58EAC251FA6EEA6005DE595 /* Fuck.gif */,
+				A5844C9D1FA80C31005E7DFE /* Lebron.gif */,
+				A58EAC231FA6EA4B005DE595 /* Jordan.gif */,
 			);
-			path = assist;
+			path = "gif pics";
 			sourceTree = "<group>";
 		};
 		A5D6328B1F84F53700B80078 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A5D632871F84F51200B80078 /* PromoContentViewController.swift */,
 				A5D632891F84F52D00B80078 /* HomeViewController.swift */,
+				A5D632871F84F51200B80078 /* PromoContentViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -200,12 +209,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5D6327A1F84B66200B80078 /* Build configuration list for PBXNativeTarget "Nike Collection" */;
 			buildPhases = (
-				78CB18591AF422AE10E6AF0D /* [CP] Check Pods Manifest.lock */,
 				A5D6324E1F84B66100B80078 /* Sources */,
 				A5D6324F1F84B66100B80078 /* Frameworks */,
 				A5D632501F84B66100B80078 /* Resources */,
-				4C0867EB2D57BC6F78EC47B7 /* [CP] Embed Pods Frameworks */,
-				BC4D2947DFDA57D8D2C32FFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,9 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D6328C1F84F80F00B80078 /* LeBronDunkContest.gif in Resources */,
-				A5D6328D1F84F80F00B80078 /* hyper.gif in Resources */,
-				A5D6328E1F84F80F00B80078 /* giphy.gif in Resources */,
+				A5844C9E1FA80C39005E7DFE /* Lebron.gif in Resources */,
+				A58EAC261FA6EEAE005DE595 /* Fuck.gif in Resources */,
+				A58EAC241FA6EA5E005DE595 /* Jordan.gif in Resources */,
 				A5D632601F84B66100B80078 /* LaunchScreen.storyboard in Resources */,
 				A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */,
 				A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */,
@@ -350,21 +356,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4C0867EB2D57BC6F78EC47B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nike Collection/Pods-Nike Collection-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5AA1022E234B30282E6D15A6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,36 +369,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nike CollectionUITests/Pods-Nike CollectionUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78CB18591AF422AE10E6AF0D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BC4D2947DFDA57D8D2C32FFA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nike Collection/Pods-Nike Collection-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CAC83BAB1084EF5E560D6BA1 /* [CP] Copy Pods Resources */ = {
@@ -478,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */,
+				A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */,
 				A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */,
 				A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */,
 			);

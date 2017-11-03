@@ -6,6 +6,8 @@
 //  Copyright © 2017 Mac. All rights reserved.
 //
 
+
+
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //change bar background color to #FF9300
+        UINavigationBar.appearance().barTintColor = UIColor(hex: "000000")
+        
+        //change status text color to white
+        UIApplication.shared.statusBarStyle = .lightContent
+        
         return true
     }
 
