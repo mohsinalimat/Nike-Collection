@@ -98,7 +98,7 @@
                                                 </constraints>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="COu-ab-UbZ" userLabel="Best Collection">
-                                                <rect key="frame" x="0.0" y="570" width="1024" height="170"/>
+                                                <rect key="frame" x="0.0" y="571" width="1024" height="170"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="30" minimumInteritemSpacing="0.0" id="2bg-uZ-K6F">
                                                     <size key="itemSize" width="130" height="130"/>
@@ -128,15 +128,14 @@
                                                     </collectionViewCell>
                                                 </cells>
                                             </collectionView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqe-su-EYX" userLabel="Line View">
-                                                <rect key="frame" x="15" y="555" width="994" height="1"/>
-                                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hqe-su-EYX" userLabel="Line View" customClass="viewEffect" customModule="Nike_Collection" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="555" width="994" height="2"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="1" id="3aW-3v-sgD"/>
+                                                    <constraint firstAttribute="height" constant="2" id="3aW-3v-sgD"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwn-DS-0zt">
-                                                <rect key="frame" x="15" y="564" width="124.5" height="21"/>
+                                                <rect key="frame" x="15" y="565" width="124.5" height="21"/>
                                                 <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="17"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
