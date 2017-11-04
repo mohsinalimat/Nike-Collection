@@ -16,7 +16,7 @@
 		A57B284C1FAC7CE600F2F88A /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */; };
 		A57B284D1FAC7CE600F2F88A /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */; };
 		A57B284F1FAC827800F2F88A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B284E1FAC827800F2F88A /* UIView+Extension.swift */; };
-		A57B28521FAC8AE500F2F88A /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = A57B28511FAC8AE500F2F88A /* products.json */; };
+		A57B28521FAC8AE500F2F88A /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = A57B28511FAC8AE500F2F88A /* Products.json */; };
 		A57B28551FAC8C6400F2F88A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B28541FAC8C6400F2F88A /* CoreDataStack.swift */; };
 		A57B28581FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A57B28561FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld */; };
 		A57B29831FAC924300F2F88A /* Jordan Wings UD 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B291B1FAC924300F2F88A /* Jordan Wings UD 4.jpg */; };
@@ -59,10 +59,10 @@
 		A57B29A81FAC924400F2F88A /* Jordan XX9 MTM 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29491FAC924300F2F88A /* Jordan XX9 MTM 3.jpg */; };
 		A57B29A91FAC924400F2F88A /* Jordan XX9 MTM 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294A1FAC924300F2F88A /* Jordan XX9 MTM 4.jpg */; };
 		A57B29AA1FAC924400F2F88A /* Jordan XX9 MTM 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294B1FAC924300F2F88A /* Jordan XX9 MTM 5.jpg */; };
-		A57B29AB1FAC924400F2F88A /* Lebron X CHROME P.E 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294D1FAC924300F2F88A /* Lebron X CHROME P.E 1.jpeg */; };
-		A57B29AC1FAC924400F2F88A /* Lebron X CHROME P.E 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294E1FAC924300F2F88A /* Lebron X CHROME P.E 3.jpeg */; };
-		A57B29AD1FAC924400F2F88A /* Lebron X CHROME P.E 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294F1FAC924300F2F88A /* Lebron X CHROME P.E 2.jpeg */; };
-		A57B29AE1FAC924400F2F88A /* Lebron X CHROME P.E 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29501FAC924300F2F88A /* Lebron X CHROME P.E 4.jpeg */; };
+		A57B29AB1FAC924400F2F88A /* Lebron X CHROME PE 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294D1FAC924300F2F88A /* Lebron X CHROME PE 1.jpg */; };
+		A57B29AC1FAC924400F2F88A /* Lebron X CHROME PE 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294E1FAC924300F2F88A /* Lebron X CHROME PE 3.jpg */; };
+		A57B29AD1FAC924400F2F88A /* Lebron X CHROME PE 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B294F1FAC924300F2F88A /* Lebron X CHROME PE 2.jpg */; };
+		A57B29AE1FAC924400F2F88A /* Lebron X CHROME PE 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29501FAC924300F2F88A /* Lebron X CHROME PE 4.jpg */; };
 		A57B29AF1FAC924400F2F88A /* Jordan XXIII Trophy Room Black 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29521FAC924300F2F88A /* Jordan XXIII Trophy Room Black 4.jpg */; };
 		A57B29B01FAC924400F2F88A /* Jordan XXIII Trophy Room Black 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29531FAC924300F2F88A /* Jordan XXIII Trophy Room Black 5.jpg */; };
 		A57B29B11FAC924400F2F88A /* Jordan XXIII Trophy Room Black 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29541FAC924300F2F88A /* Jordan XXIII Trophy Room Black 1.jpg */; };
@@ -103,6 +103,9 @@
 		A57B29D41FAC924400F2F88A /* Jordan II Jacket 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29801FAC924300F2F88A /* Jordan II Jacket 2.jpg */; };
 		A57B29D51FAC924400F2F88A /* Jordan II Jacket 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29811FAC924300F2F88A /* Jordan II Jacket 5.jpg */; };
 		A57B29D61FAC924400F2F88A /* Jordan II Jacket 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A57B29821FAC924300F2F88A /* Jordan II Jacket 4.jpg */; };
+		A57B29D81FAC966F00F2F88A /* CoreDataSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B29D71FAC966F00F2F88A /* CoreDataSave.swift */; };
+		A57B29DA1FAC997A00F2F88A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B29D91FAC997A00F2F88A /* Utility.swift */; };
+		A57B29DC1FAC99B500F2F88A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B29DB1FAC99B500F2F88A /* String+Extension.swift */; };
 		A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */; };
 		A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632551F84B66100B80078 /* AppDelegate.swift */; };
 		A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D632591F84B66100B80078 /* Main.storyboard */; };
@@ -141,7 +144,7 @@
 		A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
 		A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
 		A57B284E1FAC827800F2F88A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		A57B28511FAC8AE500F2F88A /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		A57B28511FAC8AE500F2F88A /* Products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
 		A57B28541FAC8C6400F2F88A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A57B28571FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NikeCollectionMomd.xcdatamodel; sourceTree = "<group>"; };
 		A57B291B1FAC924300F2F88A /* Jordan Wings UD 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan Wings UD 4.jpg"; sourceTree = "<group>"; };
@@ -184,10 +187,10 @@
 		A57B29491FAC924300F2F88A /* Jordan XX9 MTM 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan XX9 MTM 3.jpg"; sourceTree = "<group>"; };
 		A57B294A1FAC924300F2F88A /* Jordan XX9 MTM 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan XX9 MTM 4.jpg"; sourceTree = "<group>"; };
 		A57B294B1FAC924300F2F88A /* Jordan XX9 MTM 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan XX9 MTM 5.jpg"; sourceTree = "<group>"; };
-		A57B294D1FAC924300F2F88A /* Lebron X CHROME P.E 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME P.E 1.jpeg"; sourceTree = "<group>"; };
-		A57B294E1FAC924300F2F88A /* Lebron X CHROME P.E 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME P.E 3.jpeg"; sourceTree = "<group>"; };
-		A57B294F1FAC924300F2F88A /* Lebron X CHROME P.E 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME P.E 2.jpeg"; sourceTree = "<group>"; };
-		A57B29501FAC924300F2F88A /* Lebron X CHROME P.E 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME P.E 4.jpeg"; sourceTree = "<group>"; };
+		A57B294D1FAC924300F2F88A /* Lebron X CHROME PE 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME PE 1.jpg"; sourceTree = "<group>"; };
+		A57B294E1FAC924300F2F88A /* Lebron X CHROME PE 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME PE 3.jpg"; sourceTree = "<group>"; };
+		A57B294F1FAC924300F2F88A /* Lebron X CHROME PE 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME PE 2.jpg"; sourceTree = "<group>"; };
+		A57B29501FAC924300F2F88A /* Lebron X CHROME PE 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lebron X CHROME PE 4.jpg"; sourceTree = "<group>"; };
 		A57B29521FAC924300F2F88A /* Jordan XXIII Trophy Room Black 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan XXIII Trophy Room Black 4.jpg"; sourceTree = "<group>"; };
 		A57B29531FAC924300F2F88A /* Jordan XXIII Trophy Room Black 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan XXIII Trophy Room Black 5.jpg"; sourceTree = "<group>"; };
 		A57B29541FAC924300F2F88A /* Jordan XXIII Trophy Room Black 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan XXIII Trophy Room Black 1.jpg"; sourceTree = "<group>"; };
@@ -228,6 +231,9 @@
 		A57B29801FAC924300F2F88A /* Jordan II Jacket 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan II Jacket 2.jpg"; sourceTree = "<group>"; };
 		A57B29811FAC924300F2F88A /* Jordan II Jacket 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan II Jacket 5.jpg"; sourceTree = "<group>"; };
 		A57B29821FAC924300F2F88A /* Jordan II Jacket 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jordan II Jacket 4.jpg"; sourceTree = "<group>"; };
+		A57B29D71FAC966F00F2F88A /* CoreDataSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSave.swift; sourceTree = "<group>"; };
+		A57B29D91FAC997A00F2F88A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A57B29DB1FAC99B500F2F88A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A5844C9D1FA80C31005E7DFE /* Lebron.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lebron.gif; sourceTree = "<group>"; };
 		A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		A58EAC231FA6EA4B005DE595 /* Jordan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Jordan.gif; sourceTree = "<group>"; };
@@ -292,7 +298,7 @@
 		A57B28501FAC8ACA00F2F88A /* Json */ = {
 			isa = PBXGroup;
 			children = (
-				A57B28511FAC8AE500F2F88A /* products.json */,
+				A57B28511FAC8AE500F2F88A /* Products.json */,
 			);
 			path = Json;
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 			children = (
 				A57B28541FAC8C6400F2F88A /* CoreDataStack.swift */,
 				A57B28561FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld */,
+				A57B29D71FAC966F00F2F88A /* CoreDataSave.swift */,
 			);
 			path = "Core Data Configuration";
 			sourceTree = "<group>";
@@ -426,7 +433,7 @@
 			isa = PBXGroup;
 			children = (
 				A57B29461FAC924300F2F88A /* Jordan XX9 MTM  */,
-				A57B294C1FAC924300F2F88A /* Lebron X CHROME P.E  */,
+				A57B294C1FAC924300F2F88A /* Lebron X CHROME PE  */,
 				A57B29511FAC924300F2F88A /* Jordan XXIII Trophy Room Black  */,
 				A57B29571FAC924300F2F88A /* Jordan XXXI RW  */,
 				A57B295D1FAC924300F2F88A /* Jordan XX8 Bamboo  */,
@@ -448,15 +455,15 @@
 			path = "Jordan XX9 MTM ";
 			sourceTree = "<group>";
 		};
-		A57B294C1FAC924300F2F88A /* Lebron X CHROME P.E  */ = {
+		A57B294C1FAC924300F2F88A /* Lebron X CHROME PE  */ = {
 			isa = PBXGroup;
 			children = (
-				A57B294D1FAC924300F2F88A /* Lebron X CHROME P.E 1.jpeg */,
-				A57B294E1FAC924300F2F88A /* Lebron X CHROME P.E 3.jpeg */,
-				A57B294F1FAC924300F2F88A /* Lebron X CHROME P.E 2.jpeg */,
-				A57B29501FAC924300F2F88A /* Lebron X CHROME P.E 4.jpeg */,
+				A57B294D1FAC924300F2F88A /* Lebron X CHROME PE 1.jpg */,
+				A57B294E1FAC924300F2F88A /* Lebron X CHROME PE 3.jpg */,
+				A57B294F1FAC924300F2F88A /* Lebron X CHROME PE 2.jpg */,
+				A57B29501FAC924300F2F88A /* Lebron X CHROME PE 4.jpg */,
 			);
-			path = "Lebron X CHROME P.E ";
+			path = "Lebron X CHROME PE ";
 			sourceTree = "<group>";
 		};
 		A57B29511FAC924300F2F88A /* Jordan XXIII Trophy Room Black  */ = {
@@ -581,6 +588,8 @@
 				A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */,
 				A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */,
 				A57B284E1FAC827800F2F88A /* UIView+Extension.swift */,
+				A57B29D91FAC997A00F2F88A /* Utility.swift */,
+				A57B29DB1FAC99B500F2F88A /* String+Extension.swift */,
 			);
 			path = "Assist Part";
 			sourceTree = "<group>";
@@ -611,10 +620,10 @@
 			isa = PBXGroup;
 			children = (
 				A5D632551F84B66100B80078 /* AppDelegate.swift */,
-				A5D6328B1F84F53700B80078 /* controllers */,
 				A5D632591F84B66100B80078 /* Main.storyboard */,
 				A5D6325C1F84B66100B80078 /* Assets.xcassets */,
 				A5D6325E1F84B66100B80078 /* LaunchScreen.storyboard */,
+				A5D6328B1F84F53700B80078 /* controllers */,
 				A5D632861F84F49600B80078 /* gif pics */,
 				A5D632611F84B66100B80078 /* Info.plist */,
 				A58EAC271FA6F7C6005DE595 /* Assist Part */,
@@ -790,7 +799,7 @@
 			files = (
 				A57B29911FAC924400F2F88A /* Jordan Cologne 2.jpg in Resources */,
 				A57B299E1FAC924400F2F88A /* Jordan New Orleans 3.jpg in Resources */,
-				A57B29AC1FAC924400F2F88A /* Lebron X CHROME P.E 3.jpeg in Resources */,
+				A57B29AC1FAC924400F2F88A /* Lebron X CHROME PE 3.jpg in Resources */,
 				A57B299D1FAC924400F2F88A /* Jordan New Orleans 2.jpg in Resources */,
 				A57B28451FAC7C2C00F2F88A /* Fuck.gif in Resources */,
 				A57B29A51FAC924400F2F88A /* Jordan 96-97 Short 5.jpg in Resources */,
@@ -812,7 +821,7 @@
 				A57B29B41FAC924400F2F88A /* Jordan XXXI RW 2.jpg in Resources */,
 				A57B29CE1FAC924400F2F88A /* Jordan Achievement 2.jpg in Resources */,
 				A57B29C71FAC924400F2F88A /* Jordan Westbrook 4.jpg in Resources */,
-				A57B28521FAC8AE500F2F88A /* products.json in Resources */,
+				A57B28521FAC8AE500F2F88A /* Products.json in Resources */,
 				A57B29A81FAC924400F2F88A /* Jordan XX9 MTM 3.jpg in Resources */,
 				A57B298D1FAC924400F2F88A /* Jordan Cologne 5.jpg in Resources */,
 				A57B29921FAC924400F2F88A /* Jordan XXiii Basketball 2.jpg in Resources */,
@@ -831,12 +840,12 @@
 				A57B28471FAC7C2C00F2F88A /* Jordan.gif in Resources */,
 				A57B29B51FAC924400F2F88A /* Jordan XXXI RW 3.jpg in Resources */,
 				A5D632601F84B66100B80078 /* LaunchScreen.storyboard in Resources */,
-				A57B29AD1FAC924400F2F88A /* Lebron X CHROME P.E 2.jpeg in Resources */,
+				A57B29AD1FAC924400F2F88A /* Lebron X CHROME PE 2.jpg in Resources */,
 				A57B29D31FAC924400F2F88A /* Jordan II Jacket 3.jpg in Resources */,
-				A57B29AE1FAC924400F2F88A /* Lebron X CHROME P.E 4.jpeg in Resources */,
+				A57B29AE1FAC924400F2F88A /* Lebron X CHROME PE 4.jpg in Resources */,
 				A57B29951FAC924400F2F88A /* Jordan XXiii Basketball 4.jpg in Resources */,
 				A57B29A31FAC924400F2F88A /* Jordan 96-97 Short 3.jpg in Resources */,
-				A57B29AB1FAC924400F2F88A /* Lebron X CHROME P.E 1.jpeg in Resources */,
+				A57B29AB1FAC924400F2F88A /* Lebron X CHROME PE 1.jpg in Resources */,
 				A57B29BD1FAC924400F2F88A /* Jordan XXIII Trophy Room White 3.jpg in Resources */,
 				A57B299F1FAC924400F2F88A /* Jordan New Orleans 4.jpg in Resources */,
 				A57B29D11FAC924400F2F88A /* Jordan Achievement 5.jpg in Resources */,
@@ -1000,9 +1009,12 @@
 				A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */,
 				A57B284F1FAC827800F2F88A /* UIView+Extension.swift in Sources */,
 				A57B28581FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld in Sources */,
+				A57B29D81FAC966F00F2F88A /* CoreDataSave.swift in Sources */,
 				A57B28551FAC8C6400F2F88A /* CoreDataStack.swift in Sources */,
+				A57B29DC1FAC99B500F2F88A /* String+Extension.swift in Sources */,
 				A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */,
 				A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */,
+				A57B29DA1FAC997A00F2F88A /* Utility.swift in Sources */,
 				A57B284C1FAC7CE600F2F88A /* UIImage+SwiftyGif.swift in Sources */,
 				A57B284D1FAC7CE600F2F88A /* SwiftyGifManager.swift in Sources */,
 				A57B284B1FAC7CE600F2F88A /* UIImageView+SwiftyGif.swift in Sources */,

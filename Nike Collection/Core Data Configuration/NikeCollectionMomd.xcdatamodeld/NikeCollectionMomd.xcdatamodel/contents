@@ -3,7 +3,7 @@
     <entity name="Manufacturer" representedClassName="Manufacturer" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="manufacturer" inverseEntity="Product" syncable="YES"/>
+        <relationship name="product" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="manufacturer" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="Product" representedClassName="Product" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
@@ -16,8 +16,8 @@
         <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="manufacturer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Manufacturer" inverseName="product" inverseEntity="Manufacturer" syncable="YES"/>
-        <relationship name="productImages" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductImage" inverseName="product" inverseEntity="ProductImage" syncable="YES"/>
-        <relationship name="productInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductInfo" inverseName="product" inverseEntity="ProductInfo" syncable="YES"/>
+        <relationship name="productImages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductImage" inverseName="product" inverseEntity="ProductImage" syncable="YES"/>
+        <relationship name="productInfo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductInfo" inverseName="product" inverseEntity="ProductInfo" syncable="YES"/>
     </entity>
     <entity name="ProductImage" representedClassName="ProductImage" syncable="YES" codeGenerationType="class">
         <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
@@ -31,9 +31,9 @@
         <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="productInfo" inverseEntity="Product" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Product" positionX="-63" positionY="-18" width="128" height="223"/>
+        <element name="Manufacturer" positionX="-90" positionY="279" width="128" height="90"/>
+        <element name="Product" positionX="-63" positionY="-18" width="128" height="225"/>
         <element name="ProductImage" positionX="-299" positionY="54" width="128" height="88"/>
         <element name="ProductInfo" positionX="151" positionY="36" width="128" height="105"/>
-        <element name="Manufacturer" positionX="-90" positionY="279" width="128" height="90"/>
     </elements>
 </model>

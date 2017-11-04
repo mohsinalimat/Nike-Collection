@@ -54,7 +54,7 @@ class HomeViewController: UIViewController,UIPageViewControllerDataSource {
     }
     */
 
-}
+}//class HomeViewController over line
 
 //custom functions
 extension HomeViewController{

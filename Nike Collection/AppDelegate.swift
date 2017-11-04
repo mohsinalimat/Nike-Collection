@@ -9,6 +9,7 @@
 
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //change status text color to white
         UIApplication.shared.statusBarStyle = .lightContent
+        
+        //save json data to Core Data
+        LoadProducts.shared.loadProducts()
         
         return true
     }

@@ -35,7 +35,7 @@ class PromoContentViewController: UIViewController {
     }
     
 
-}
+}//class PromoContentViewController over line
 
 //custom functions:
 extension PromoContentViewController{

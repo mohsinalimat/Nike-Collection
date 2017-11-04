@@ -60,7 +60,7 @@
                  "Brand": "Jordan",
                  "summary": "Very Rare and Hard to find!!!Get it while you still can!!! This jacket is very soft and very very RARE!!! It came out a few years ago and I have been storing it neatly in the closet!!! Just never wore it. Tried on briefly and that's about it!!!",
                  "description1": "This Nike all-leather body jacket brings the a classic leather jacket up to speed with this ultra comfortable, ultra-durable fashion jacket that provides that quality stylish look. This can be worn smart or casual and for any occasion, but be sure to stand out with this limited edition Jordan Jacket. Key Features: - Adjustable cuffs for a snug and durable fit - Zip-up closure - 2 zip pockets for storage purposes - High quality leather allover with - Air Jordan Jumpman logo on the front - Nike Air Jordan logo tag on the left hand side - Embossed panels to add defining detail to the jacket",
-                 "description3": "DOUBLE BOX WHEN SHIPPED/FREE INSURANCE SIGNATURE CONFIRMATION HURRY AND GRAB THIS WHILE YOU CAN!!!"
+                 "description2": "DOUBLE BOX WHEN SHIPPED/FREE INSURANCE SIGNATURE CONFIRMATION HURRY AND GRAB THIS WHILE YOU CAN!!!"
                  },
                  {
                  "id": "694029-010",
@@ -146,11 +146,11 @@
                  "type": "Shoes",
                  "regularPrice": 5999.99,
                  "salePrice": 5999.00,
-                 "name": "Lebron X CHROME P.E",
+                 "name": "Lebron X CHROME PE",
                  "Condition": "New with box",
                  "US Size(Men's)": "12",
                  "images": [
-                            "Lebron X CHROME P.E 1.jpg", "Lebron X CHROME P.E 2.jpg", "Lebron X CHROME P.E 3.jpg", "Lebron X CHROME P.E 4.jpg"
+                            "Lebron X CHROME PE 1.jpg", "Lebron X CHROME PE 2.jpg", "Lebron X CHROME PE 3.jpg", "Lebron X CHROME PE 4.jpg"
                             ],
                  "manufacturerId": 2,
                  "manufacturerName": "CHROME",
@@ -190,7 +190,7 @@
                  "Condition": "New with box",
                  "US Size(Men's)": "12",
                  "images": [
-                            "Jordan XXIII Trophy Room Black 1.jpg", "Jordan XXIII Trophy Room Black 2.jpg""Jordan XXIII Trophy Room Black 3.jpg", "Jordan XXIII Trophy Room Black 4.jpg", "Jordan XXIII Trophy Room Black 5.jpg",
+                            "Jordan XXIII Trophy Room Black 1.jpg", "Jordan XXIII Trophy Room Black 2.jpg","Jordan XXIII Trophy Room Black 3.jpg", "Jordan XXIII Trophy Room Black 4.jpg", "Jordan XXIII Trophy Room Black 5.jpg"
                             ],
                  "manufacturerId": 2,
                  "manufacturerName": "Trophy Room Black",
@@ -210,7 +210,7 @@
                  "Condition": "New with box",
                  "US Size(Men's)": "12",
                  "images": [
-                            "Jordan XXIII Trophy Room White 1.jpg" , "Jordan XXIII Trophy Room White 2.jpg" , "Jordan XXIII Trophy Room White 3.jpg" , "Jordan XXIII Trophy Room White 4.jpg" , "Jordan XXIII Trophy Room White 5.jpg" ,
+                            "Jordan XXIII Trophy Room White 1.jpg" , "Jordan XXIII Trophy Room White 2.jpg" , "Jordan XXIII Trophy Room White 3.jpg" , "Jordan XXIII Trophy Room White 4.jpg" , "Jordan XXIII Trophy Room White 5.jpg"
                             ],
                  "manufacturerId": 2,
                  "manufacturerName": "Trophy Room White",
@@ -229,7 +229,7 @@
                  "Condition": "New",
                  "US Size(Men's)": "Regular",
                  "images": [
-                            "For The Love Of The Game 1.jpg" ,"For The Love Of The Game 2.jpg" ,"For The Love Of The Game 3.jpg" ,"For The Love Of The Game 4.jpg" ,"For The Love Of The Game 5.jpg" ,
+                            "For The Love Of The Game 1.jpg" ,"For The Love Of The Game 2.jpg" ,"For The Love Of The Game 3.jpg" ,"For The Love Of The Game 4.jpg" ,"For The Love Of The Game 5.jpg"
                             ],
                  "manufacturerId": 3,
                  "manufacturerName": "For The Love",
@@ -248,7 +248,7 @@
                  "Condition": "New",
                  "US Size(Men's)": "Regular",
                  "images": [
-                            "Jordan Cologne 1.jpg" ,"Jordan Cologne 2.jpg" ,"Jordan Cologne 3.jpg" ,"Jordan Cologne 4.jpg" ,"Jordan Cologne 5.jpg" ,
+                            "Jordan Cologne 1.jpg" ,"Jordan Cologne 2.jpg" ,"Jordan Cologne 3.jpg" ,"Jordan Cologne 4.jpg" ,"Jordan Cologne 5.jpg" 
                             ],
                  "manufacturerId": 3,
                  "manufacturerName": "Cologne",
