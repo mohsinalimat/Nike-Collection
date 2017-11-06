@@ -115,6 +115,7 @@
 		A5D632761F84B66200B80078 /* Nike_CollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632751F84B66200B80078 /* Nike_CollectionUITests.swift */; };
 		A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632871F84F51200B80078 /* PromoContentViewController.swift */; };
 		A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632891F84F52D00B80078 /* HomeViewController.swift */; };
+		A5D799CC1FAF680900AE05B2 /* CoreDataDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D799CB1FAF680800AE05B2 /* CoreDataDelete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 		A5D632771F84B66200B80078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D632871F84F51200B80078 /* PromoContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
 		A5D632891F84F52D00B80078 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5D799CB1FAF680800AE05B2 /* CoreDataDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDelete.swift; sourceTree = "<group>"; };
 		DB11E4FF2FC170C4992A4F42 /* Pods_Nike_Collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_Collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCF29D8B2E3ADB96F7D64F3 /* Pods_Nike_CollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_CollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B2A58543EA379806865AB0 /* Pods-Nike CollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionUITests/Pods-Nike CollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -309,6 +311,7 @@
 				A57B28541FAC8C6400F2F88A /* CoreDataStack.swift */,
 				A57B28561FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld */,
 				A57B29D71FAC966F00F2F88A /* CoreDataSave.swift */,
+				A5D799CB1FAF680800AE05B2 /* CoreDataDelete.swift */,
 			);
 			path = "Core Data Configuration";
 			sourceTree = "<group>";
@@ -626,9 +629,9 @@
 				A5D6328B1F84F53700B80078 /* controllers */,
 				A5D632861F84F49600B80078 /* gif pics */,
 				A5D632611F84B66100B80078 /* Info.plist */,
+				A57B28531FAC8C2C00F2F88A /* Core Data Configuration */,
 				A58EAC271FA6F7C6005DE595 /* Assist Part */,
 				A57B29181FAC924300F2F88A /* images */,
-				A57B28531FAC8C2C00F2F88A /* Core Data Configuration */,
 				A57B28501FAC8ACA00F2F88A /* Json */,
 			);
 			path = "Nike Collection";
@@ -1008,6 +1011,7 @@
 				A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */,
 				A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */,
 				A57B284F1FAC827800F2F88A /* UIView+Extension.swift in Sources */,
+				A5D799CC1FAF680900AE05B2 /* CoreDataDelete.swift in Sources */,
 				A57B28581FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld in Sources */,
 				A57B29D81FAC966F00F2F88A /* CoreDataSave.swift in Sources */,
 				A57B28551FAC8C6400F2F88A /* CoreDataStack.swift in Sources */,

@@ -26,8 +26,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //change status text color to white
         UIApplication.shared.statusBarStyle = .lightContent
         
+        //reset Core Data, for fetch a nsmanageobj as each entity in one time
+        ResetCoreData.shared.deleteProducts()
+        
         //save json data to Core Data
         LoadProducts.shared.loadProducts()
+    
+        //Core Data files save location
+let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
+        //shows location in console
+        print(urls[urls.count-1] as URL)
+        
         
         return true
     }

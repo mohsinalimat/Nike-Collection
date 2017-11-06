@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 
+
 class LoadProducts{
    
 //use LoadProducts name call this var can return a instance of LoadProducts in this all module
@@ -21,7 +22,7 @@ class LoadProducts{
   fileprivate let managedObjectContext = CoreDataStack().persistentContainer.viewContext
 
   // load json data and save them into Core Data
-   func loadProducts() {
+ func loadProducts() {
     
     let path = Bundle.main.url(forResource: "Products", withExtension: "json")
     
@@ -35,7 +36,6 @@ class LoadProducts{
          
  let jsonArray = jsonResult["products"] as! [Any]
  
-                
  //access json in detail
  _ = jsonArray.map{json in loadJson(json: json)}
                 
@@ -49,13 +49,14 @@ CoreDataStack().saveContext()
    
     
     
-    
   //access json in detail
-   fileprivate func loadJson(json: Any) {
+    fileprivate func loadJson(json: Any) {
     
         let productData = json as! [String: Any]
    //print(json)
-    
+  
+ 
+    //As NikeCollectionMomd
  //Product part ------------------------------------------
     
     let product = Product(context: managedObjectContext)
@@ -115,8 +116,9 @@ productImage.setValue(imageData, forKey: "image")
 productImage.setValue(currentImageName, forKey: "name")
         
     if mainImageName == nil && currentImageName?.contains("1") == true {
-                    mainImageName = currentImageName
+            mainImageName = currentImageName
                 }
+        
     productImages.add(productImage)
             }
             
