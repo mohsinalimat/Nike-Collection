@@ -15,9 +15,11 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    
+//get Core Data Stack class instance
+var coreDataStack = CoreDataStack()
+    
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         //change bar background color to #FF9300
@@ -25,18 +27,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //change status text color to white
         UIApplication.shared.statusBarStyle = .lightContent
-        
-        //reset Core Data, for fetch a nsmanageobj as each entity in one time
-        ResetCoreData.shared.deleteProducts()
+    
+    //reset Core Data, for fetch a nsmanageobj as each entity in one time
+      CoreDataDelete.shared.resetRequest()
         
         //save json data to Core Data
-        LoadProducts.shared.loadProducts()
+        CoreDataSave.shared.loadProducts()
     
         //Core Data files save location
 let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
         //shows location in console
         print(urls[urls.count-1] as URL)
-        
         
         return true
     }
@@ -62,6 +63,7 @@ let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .user
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+
 
 
 }

@@ -10,7 +10,7 @@ import XCTest
 @testable import Nike_Collection
 
 class Nike_CollectionTests: XCTestCase {
-    let VC = HomeViewController()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -28,11 +28,7 @@ class Nike_CollectionTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        let s = ["Fuck","Jordan","Lebron"]
-        XCTAssert(s == VC.arrPageImage)    
-        }
+       
     }
     
 }

@@ -8,13 +8,17 @@
 
 import UIKit
 
-class HomeViewController: UIViewController,UIPageViewControllerDataSource {
+class HomeViewController: UIViewController,UIPageViewControllerDataSource,UICollectionViewDataSource {
 
     
     @IBOutlet weak var pageView: UIView!
     
     @IBOutlet weak var pageControl: UIPageControl!
 
+    @IBOutlet weak var newestCollectionView: UICollectionView!
+    
+    @IBOutlet weak var bestCollectionView: UICollectionView!
+    
     
     // aim to get promoPageVC in Storyboard
     var pageViewController: UIPageViewController?
@@ -24,6 +28,10 @@ class HomeViewController: UIViewController,UIPageViewControllerDataSource {
     
     // use this in automatic sliding feature function
     var currentIndex = 0
+    
+    //newest and best colleciton view needs array
+    var newestCollection = [Product]()
+    var bestCollection = [Product]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +43,13 @@ class HomeViewController: UIViewController,UIPageViewControllerDataSource {
         
         //set container view
         setPageViewController()
- 
+        
+        //set newest and best arrays data and send datasource to self
+        collectionViewDataInit()
+        
+        //set navigation bar colorful 
+        gradientNavigationBar()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -124,10 +138,24 @@ self.pageView.addSubview(self.pageViewController!.view)
         //currentPage equals to currentIndex
         self.pageControl.currentPage = currentIndex
     }
+   
+//set newest and best arrays data and send datasource to self
+    private func collectionViewDataInit(){
+        newestCollection = CoreDataFetch.fetchResult.productsServe(category: "Souvenirs")
+        bestCollection = CoreDataFetch.fetchResult.productsServe(category: "Shoes")
+        
+        self.newestCollectionView.dataSource = self
+        
+        self.bestCollectionView.dataSource = self
+
+    }
+
+ //set navigation bar colorful 
+    private func gradientNavigationBar(){
+navigationController?.navigationBar.setGradientBackground(colors: [UIColor(hex:"111BDB"),UIColor(hex: "DB1121"),UIColor(hex: "80F441")])
+    }
     
 }
-
-
 
 
 //pageVC - datasource
@@ -169,6 +197,65 @@ extension HomeViewController{
     }
 }
 
+//collectionView - datasource
+extension HomeViewController{
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        switch collectionView{
+            
+        case self.newestCollectionView:
+            return self.newestCollection.count
+            
+        case self.bestCollectionView:
+            return self.bestCollection.count
+            
+        default :
+            return 0
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        switch collectionView {
+            
+        case self.newestCollectionView:
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "newestItems", for: indexPath) as! ProductCollectionViewCell
+            let product = newestCollection[indexPath.row]
+            
+            cell.productsImageView.image = Utility.image(withName: product.mainimage, andType: "jpg")
+            cell.layer.cornerRadius = cell.bounds.size.width / 2
+            
+            cell.layer.borderWidth = 5
+            cell.layer.borderColor = UIColor.randomColor().cgColor
+          
+            return cell
+            
+        case self.bestCollectionView:
+            
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "bestItems", for: indexPath) as! ProductCollectionViewCell
+            let product = bestCollection[indexPath.row]
+            
+            cell.productsImageView.image = Utility.image(withName: product.mainimage, andType: "jpg")
+            
+            cell.layer.cornerRadius = cell.bounds.size.width / 2
+            
+            cell.layer.borderWidth = 5
+     cell.layer.borderColor = UIColor.randomColor().cgColor
+     
+            return cell
+    
+            
+        default:
+            return UICollectionViewCell()
+        }
+        
+    }
 
+}
 
 

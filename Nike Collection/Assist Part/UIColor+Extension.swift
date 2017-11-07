@@ -30,6 +30,13 @@ let b = rgbValue & 0xff
  self.init(red: CGFloat(r) / 0xff, green: CGFloat(g) / 0xff,
 blue: CGFloat(b) / 0xff, alpha: 1 )
    }
+    
+    class func randomColor() -> UIColor{
+        
+     return UIColor(red: CGFloat(drand48()), green: CGFloat(drand48()), blue: CGFloat(drand48()), alpha: CGFloat(drand48()))
+        
+    }
+    
 }
 
 

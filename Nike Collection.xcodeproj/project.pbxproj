@@ -106,7 +106,8 @@
 		A57B29D81FAC966F00F2F88A /* CoreDataSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B29D71FAC966F00F2F88A /* CoreDataSave.swift */; };
 		A57B29DA1FAC997A00F2F88A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B29D91FAC997A00F2F88A /* Utility.swift */; };
 		A57B29DC1FAC99B500F2F88A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B29DB1FAC99B500F2F88A /* String+Extension.swift */; };
-		A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */; };
+		A58EAC201FA6DA9D005DE595 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EAC1F1FA6DA9D005DE595 /* UIColor+Extension.swift */; };
+		A5B326F21FB1CA74000852F7 /* UINavigation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B326F11FB1CA74000852F7 /* UINavigation+Extension.swift */; };
 		A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632551F84B66100B80078 /* AppDelegate.swift */; };
 		A5D6325B1F84B66100B80078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D632591F84B66100B80078 /* Main.storyboard */; };
 		A5D6325D1F84B66100B80078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D6325C1F84B66100B80078 /* Assets.xcassets */; };
@@ -116,6 +117,8 @@
 		A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632871F84F51200B80078 /* PromoContentViewController.swift */; };
 		A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D632891F84F52D00B80078 /* HomeViewController.swift */; };
 		A5D799CC1FAF680900AE05B2 /* CoreDataDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D799CB1FAF680800AE05B2 /* CoreDataDelete.swift */; };
+		A5D799CE1FB0CF1100AE05B2 /* CoreDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D799CD1FB0CF1100AE05B2 /* CoreDataFetch.swift */; };
+		A5D799D11FB0D50100AE05B2 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D799D01FB0D50100AE05B2 /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,9 +239,10 @@
 		A57B29D91FAC997A00F2F88A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		A57B29DB1FAC99B500F2F88A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A5844C9D1FA80C31005E7DFE /* Lebron.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lebron.gif; sourceTree = "<group>"; };
-		A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		A58EAC1F1FA6DA9D005DE595 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A58EAC231FA6EA4B005DE595 /* Jordan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Jordan.gif; sourceTree = "<group>"; };
 		A58EAC251FA6EEA6005DE595 /* Fuck.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fuck.gif; sourceTree = "<group>"; };
+		A5B326F11FB1CA74000852F7 /* UINavigation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigation+Extension.swift"; sourceTree = "<group>"; };
 		A5D632521F84B66100B80078 /* Nike Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D632551F84B66100B80078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D6325A1F84B66100B80078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -254,6 +258,8 @@
 		A5D632871F84F51200B80078 /* PromoContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
 		A5D632891F84F52D00B80078 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5D799CB1FAF680800AE05B2 /* CoreDataDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDelete.swift; sourceTree = "<group>"; };
+		A5D799CD1FB0CF1100AE05B2 /* CoreDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFetch.swift; sourceTree = "<group>"; };
+		A5D799D01FB0D50100AE05B2 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		DB11E4FF2FC170C4992A4F42 /* Pods_Nike_Collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_Collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCF29D8B2E3ADB96F7D64F3 /* Pods_Nike_CollectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nike_CollectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B2A58543EA379806865AB0 /* Pods-Nike CollectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nike CollectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nike CollectionUITests/Pods-Nike CollectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -312,6 +318,7 @@
 				A57B28561FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld */,
 				A57B29D71FAC966F00F2F88A /* CoreDataSave.swift */,
 				A5D799CB1FAF680800AE05B2 /* CoreDataDelete.swift */,
+				A5D799CD1FB0CF1100AE05B2 /* CoreDataFetch.swift */,
 			);
 			path = "Core Data Configuration";
 			sourceTree = "<group>";
@@ -586,13 +593,14 @@
 		A58EAC271FA6F7C6005DE595 /* Assist Part */ = {
 			isa = PBXGroup;
 			children = (
-				A58EAC1F1FA6DA9D005DE595 /* HexColor.swift */,
-				A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */,
+				A57B29D91FAC997A00F2F88A /* Utility.swift */,
+				A58EAC1F1FA6DA9D005DE595 /* UIColor+Extension.swift */,
+				A5B326F11FB1CA74000852F7 /* UINavigation+Extension.swift */,
+				A57B29DB1FAC99B500F2F88A /* String+Extension.swift */,
+				A57B284E1FAC827800F2F88A /* UIView+Extension.swift */,
 				A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */,
 				A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */,
-				A57B284E1FAC827800F2F88A /* UIView+Extension.swift */,
-				A57B29D91FAC997A00F2F88A /* Utility.swift */,
-				A57B29DB1FAC99B500F2F88A /* String+Extension.swift */,
+				A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */,
 			);
 			path = "Assist Part";
 			sourceTree = "<group>";
@@ -668,10 +676,19 @@
 		A5D6328B1F84F53700B80078 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A5D632891F84F52D00B80078 /* HomeViewController.swift */,
-				A5D632871F84F51200B80078 /* PromoContentViewController.swift */,
+				A5D799CF1FB0D4C700AE05B2 /* Home Tab */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		A5D799CF1FB0D4C700AE05B2 /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A5D632891F84F52D00B80078 /* HomeViewController.swift */,
+				A5D632871F84F51200B80078 /* PromoContentViewController.swift */,
+				A5D799D01FB0D50100AE05B2 /* ProductCollectionViewCell.swift */,
+			);
+			path = "Home Tab";
 			sourceTree = "<group>";
 		};
 		D082C843D52BCDD4982D30D1 /* Pods */ = {
@@ -1009,7 +1026,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D632881F84F51200B80078 /* PromoContentViewController.swift in Sources */,
-				A58EAC201FA6DA9D005DE595 /* HexColor.swift in Sources */,
+				A58EAC201FA6DA9D005DE595 /* UIColor+Extension.swift in Sources */,
+				A5D799D11FB0D50100AE05B2 /* ProductCollectionViewCell.swift in Sources */,
 				A57B284F1FAC827800F2F88A /* UIView+Extension.swift in Sources */,
 				A5D799CC1FAF680900AE05B2 /* CoreDataDelete.swift in Sources */,
 				A57B28581FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld in Sources */,
@@ -1022,6 +1040,8 @@
 				A57B284C1FAC7CE600F2F88A /* UIImage+SwiftyGif.swift in Sources */,
 				A57B284D1FAC7CE600F2F88A /* SwiftyGifManager.swift in Sources */,
 				A57B284B1FAC7CE600F2F88A /* UIImageView+SwiftyGif.swift in Sources */,
+				A5B326F21FB1CA74000852F7 /* UINavigation+Extension.swift in Sources */,
+				A5D799CE1FB0CF1100AE05B2 /* CoreDataFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

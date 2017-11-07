@@ -6,38 +6,44 @@
 //  Copyright © 2017 Mac. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CoreData
 
-class ResetCoreData{
+class CoreDataDelete{
     
     //use LoadProducts name call this var can return a instance of LoadProducts in this all module
-    class var shared: ResetCoreData{
-        let resetCoreData = ResetCoreData()
+    class var shared: CoreDataDelete{
+        let resetCoreData = CoreDataDelete()
         return resetCoreData
     }
     
-    
-    //get Core Data stack instance
-  fileprivate  let managedObjectContext = CoreDataStack().persistentContainer.viewContext
-    
- fileprivate  var deleteRequest: NSBatchDeleteRequest?
-  
-     func deleteProducts(){
-    
-        let requestInstanceArray = [Product.self,Manufacturer.self,ProductInfo.self,ProductImage.self].map { (classElement) in
-             classElement.fetchRequest()
-        }
-    
+
+    func resetRequest(){
         
-        do{
-_ = try requestInstanceArray.map({ (fetchElement) in
+        //get Core Data stack instance
+    let appDelegateDelete = UIApplication.shared.delegate as!
+        AppDelegate
+        let managedObjectContext = appDelegateDelete.coreDataStack.persistentContainer.viewContext
+ 
+        let fetchResultArrs = [Product.self,Manufacturer.self,ProductInfo.self,ProductImage.self].map {$0.fetchRequest()}
     
-    deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchElement )
-    _ =  try managedObjectContext.execute(deleteRequest!)
-            })
-        }catch let error as NSError {
-            print("Error in deleting products: \(error.localizedDescription)")
+        /*
+        let productRequest: NSFetchRequest<Product> = Product.fetchRequest()
+        let manufacturerRequest: NSFetchRequest<Manufacturer> = Manufacturer.fetchRequest()
+        let productInfoRequest: NSFetchRequest<ProductInfo> = ProductInfo.fetchRequest()
+        let productImageRequest: NSFetchRequest<ProductImage> = ProductImage.fetchRequest()
+        */
+
+        do{
+            
+_ =  try fetchResultArrs.map{ (element) in
+    
+    let deleteRequest = NSBatchDeleteRequest(fetchRequest: element)
+     _ =  try managedObjectContext.execute(deleteRequest) as! NSBatchDeleteResult
+            }
+            
+        }catch  {
+            
         }
     }
     
