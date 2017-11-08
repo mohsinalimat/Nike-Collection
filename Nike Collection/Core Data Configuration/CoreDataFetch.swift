@@ -26,8 +26,11 @@ class CoreDataFetch {
         do {
             
    let products = try self.managedObjectContexts.fetch(request)
-            
+      
+    //check if core data has saved successfullly
        print(products)
+            
+    //if each time items count in console is same, this means the resetdata feature has effect
             print(products.count)
             
             return products
