@@ -15,9 +15,13 @@ class HomeViewController: UIViewController,UIPageViewControllerDataSource,UIColl
     
     @IBOutlet weak var pageControl: UIPageControl!
 
-    @IBOutlet weak var newestCollectionView: UICollectionView!
+    @IBOutlet weak var newestCollectionView: UICollectionView!{
+        didSet{self.newestCollectionView.dataSource = self}
+    }
     
-    @IBOutlet weak var bestCollectionView: UICollectionView!
+    @IBOutlet weak var bestCollectionView: UICollectionView!{
+        didSet{self.bestCollectionView.dataSource = self}
+    }
     
     
     // aim to get promoPageVC in Storyboard
@@ -139,14 +143,10 @@ self.pageView.addSubview(self.pageViewController!.view)
         self.pageControl.currentPage = currentIndex
     }
    
-//set newest and best arrays data and send datasource to self
+//set newest and best arrays data
     private func collectionViewDataInit(){
         newestCollection = CoreDataFetch.fetchResult.productsServe(category: "Souvenirs")
         bestCollection = CoreDataFetch.fetchResult.productsServe(category: "Shoes")
-        
-        self.newestCollectionView.dataSource = self
-        
-        self.bestCollectionView.dataSource = self
 
     }
 
