@@ -13,7 +13,7 @@ extension String {
         if self.contains(".") {
             
             // example: "Jordan.jpg" to "Jordan"
-return self.substring(to: self.characters.index(of: ".")!)
+        return String(self[..<self.index(of: ".")!])
             
         }
         return self

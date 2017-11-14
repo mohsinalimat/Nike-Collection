@@ -10,6 +10,7 @@
 		A530361E1FB444A300820D2F /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530361D1FB444A300820D2F /* Double+Extension.swift */; };
 		A53036201FB46EF600820D2F /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530361F1FB46EF600820D2F /* ProductsTableViewController.swift */; };
 		A53036581FB772F900820D2F /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53036571FB772F900820D2F /* ProductsTableViewCell.swift */; };
+		A530366F1FBB0A0900820D2F /* UserRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530366E1FBB0A0900820D2F /* UserRating.swift */; };
 		A57B28451FAC7C2C00F2F88A /* Fuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC251FA6EEA6005DE595 /* Fuck.gif */; };
 		A57B28461FAC7C2C00F2F88A /* Lebron.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5844C9D1FA80C31005E7DFE /* Lebron.gif */; };
 		A57B28471FAC7C2C00F2F88A /* Jordan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A58EAC231FA6EA4B005DE595 /* Jordan.gif */; };
@@ -143,6 +144,7 @@
 		A530361D1FB444A300820D2F /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		A530361F1FB46EF600820D2F /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		A53036571FB772F900820D2F /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		A530366E1FBB0A0900820D2F /* UserRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRating.swift; sourceTree = "<group>"; };
 		A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
 		A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
 		A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
@@ -586,6 +588,7 @@
 			isa = PBXGroup;
 			children = (
 				A57B29D91FAC997A00F2F88A /* Utility.swift */,
+				A530366E1FBB0A0900820D2F /* UserRating.swift */,
 				A58EAC1F1FA6DA9D005DE595 /* UIColor+Extension.swift */,
 				A5B326F11FB1CA74000852F7 /* UINavigation+Extension.swift */,
 				A57B29DB1FAC99B500F2F88A /* String+Extension.swift */,
@@ -1010,6 +1013,7 @@
 				A530361E1FB444A300820D2F /* Double+Extension.swift in Sources */,
 				A5D799D11FB0D50100AE05B2 /* ProductCollectionViewCell.swift in Sources */,
 				A57B284F1FAC827800F2F88A /* UIView+Extension.swift in Sources */,
+				A530366F1FBB0A0900820D2F /* UserRating.swift in Sources */,
 				A5D799CC1FAF680900AE05B2 /* CoreDataDelete.swift in Sources */,
 				A57B28581FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld in Sources */,
 				A57B29D81FAC966F00F2F88A /* CoreDataSave.swift in Sources */,

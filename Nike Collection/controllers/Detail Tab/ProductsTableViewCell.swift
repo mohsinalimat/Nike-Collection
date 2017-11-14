@@ -12,6 +12,7 @@ import CoreData
 class ProductsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var productImageView: UIImageView!
+        {didSet{productImageView.layer.cornerRadius = 20}}
     
     @IBOutlet weak var productNameLabel: UILabel!
     
@@ -19,11 +20,13 @@ class ProductsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var priceLabel: UILabel!
     
+    @IBOutlet weak var userRating: UserRating!
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -42,7 +45,7 @@ extension ProductsTableViewCell{
         productNameLabel.text = product.name
         manufacturerLabel.text = product.manufacturer?.name
         priceLabel.text = product.salePrice.currencyFormatter
-    
+        userRating.rating = Int(product.rating)
     }
     
 }

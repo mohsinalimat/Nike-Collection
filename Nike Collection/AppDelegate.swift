@@ -22,7 +22,7 @@ var coreDataStack = CoreDataStack()
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        //change bar background color to #FF9300
+        //change bar background color to #000000
         UINavigationBar.appearance().barTintColor = UIColor(hex: "000000")
         
         //change status text color to white
@@ -35,7 +35,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         CoreDataSave.shared.loadProducts()
     
         //Core Data files save location
-let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
+   let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
     
         //shows location in console
         print(urls[urls.count-1] as URL)

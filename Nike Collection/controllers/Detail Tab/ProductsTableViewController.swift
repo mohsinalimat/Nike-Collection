@@ -22,12 +22,14 @@ class ProductsTableViewController: UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     fetchData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        fetchData()
        setFootView()
+        tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -133,6 +135,18 @@ extension ProductsTableViewController{
             return 0
         }
     }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellProduct", for: indexPath) as! ProductsTableViewCell
+        
+        let section = self.sectionItems[indexPath.section]
+        
+        cell.configureCell(with: section[indexPath.row])
+        return cell
+        
+    }
+    
 }
 
 //table view delegate
@@ -183,24 +197,7 @@ extension ProductsTableViewController{
         
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellProduct", for: indexPath) as! ProductsTableViewCell
-        
-        let section = self.sectionItems[indexPath.section]
-        
-        cell.configureCell(with: section[indexPath.row])
-        return cell
-        
-    }
-    
     override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
-    
-    
-    
-    
-    
-    
 }
