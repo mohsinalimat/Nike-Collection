@@ -11,12 +11,19 @@ import CoreData
 
 class ProductsTableViewController: UITableViewController{
 
-    let kHeaderSectionTag: Int = 6900
+    //just a num as section tag
+    let kHeaderSectionTag = 6900
     
-    var expandedSectionHeaderNumber: Int = -1
+    //also just a header num
+    var expandedSectionHeaderNumber = -1
+    
+    //section view
     var expandedSectionHeader: UITableViewHeaderFooterView!
     
+    //as section title
     var sectionNames = [String]()
+    
+    //as section cells
     var sectionItems = [[Product]]()
     
     
@@ -42,16 +49,19 @@ class ProductsTableViewController: UITableViewController{
 // custom functions
 extension ProductsTableViewController{
     
+    //can't show foot view
     private func setFootView(){
          tableView.tableFooterView = UIView()
     }
     
+    //fetch cells data from CoreData
     private func fetchData(){
         sectionNames = ["Jackets","Shoes","Souvenirs","Shorts"]
         sectionItems = sectionNames.map{ (element) -> [Product] in
             return CoreDataFetch.fetchResult.productsServe(category: element)
         }
     }
+    
     
     @objc func sectionHeaderWasTouched(_ sender: UITapGestureRecognizer) {
         let headerView = sender.view as! UITableViewHeaderFooterView
@@ -78,7 +88,7 @@ extension ProductsTableViewController{
         
         self.expandedSectionHeaderNumber = -1
         if (sectionData.count == 0) {
-            return;
+            return
         } else {
             UIView.animate(withDuration: 0.4, animations: {
                 imageView.transform = CGAffineTransform(rotationAngle: (0.0 * CGFloat(Double.pi)) / 180.0)
@@ -100,7 +110,7 @@ extension ProductsTableViewController{
         
         if (sectionData.count == 0) {
             self.expandedSectionHeaderNumber = -1
-            return;
+            return
         } else {
             UIView.animate(withDuration: 0.4, animations: {
                 imageView.transform = CGAffineTransform(rotationAngle: (180.0 * CGFloat(Double.pi)) / 180.0)
@@ -142,7 +152,12 @@ extension ProductsTableViewController{
         
         let section = self.sectionItems[indexPath.section]
         
+        cell.productImageView.layer.borderWidth = 2
+        cell.productImageView.layer.cornerRadius = 10
+        cell.productImageView.layer.borderColor = UIColor.red.cgColor
+        
         cell.configureCell(with: section[indexPath.row])
+        
         return cell
         
     }
@@ -154,13 +169,16 @@ extension ProductsTableViewController{
     
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
         if (self.sectionNames.count != 0) {
+          
             return self.sectionNames[section]
         }
         return ""
     }
     
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        
         return 55.0
     }
     

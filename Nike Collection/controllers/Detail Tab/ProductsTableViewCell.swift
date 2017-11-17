@@ -12,7 +12,6 @@ import CoreData
 class ProductsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var productImageView: UIImageView!
-        {didSet{productImageView.layer.cornerRadius = 20}}
     
     @IBOutlet weak var productNameLabel: UILabel!
     
@@ -46,6 +45,8 @@ extension ProductsTableViewCell{
         manufacturerLabel.text = product.manufacturer?.name
         priceLabel.text = product.salePrice.currencyFormatter
         userRating.rating = Int(product.rating)
+        
+
     }
     
 }

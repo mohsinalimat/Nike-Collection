@@ -35,5 +35,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Suissnord.ttf</string>
+		<string>P22 ToyBox BlocksLine Regular.ttf</string>
+		<string>HeadlinerNo.45 DEMO.ttf</string>
+		<string>P22 ToyBox Blocks Regular.ttf</string>
+		<string>MosaicCaps.ttf</string>
+		<string>ZiGzAgEo-Reg-FFP.ttf</string>
+		<string>IMPOS-30.ttf</string>
+		<string>Honeybee.ttf</string>
+	</array>
 </dict>
 </plist>

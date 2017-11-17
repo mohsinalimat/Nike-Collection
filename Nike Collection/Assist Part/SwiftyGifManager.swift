@@ -6,22 +6,22 @@ import ImageIO
 import UIKit
 import Foundation
 
-open class SwiftyGifManager {
+ class SwiftyGifManager {
     
     // A convenient default manager if we only have one gif to display here and there
-    public static var defaultManager = SwiftyGifManager(memoryLimit: 50)
+     static var defaultManager = SwiftyGifManager(memoryLimit: 50)
     
     fileprivate var timer: CADisplayLink?
     fileprivate var displayViews: [UIImageView] = []
     fileprivate var totalGifSize: Int
     fileprivate var memoryLimit: Int
-    open var  haveCache: Bool
+     var  haveCache: Bool
     
     /**
      Initialize a manager
      - Parameter memoryLimit: The number of Mb max for this manager
      */
-    public init(memoryLimit: Int) {
+     init(memoryLimit: Int) {
         self.memoryLimit = memoryLimit
         totalGifSize = 0
         haveCache = true
@@ -33,7 +33,7 @@ open class SwiftyGifManager {
      Add a new imageView to this manager if it doesn't exist
      - Parameter imageView: The UIImageView we're adding to this manager
      */
-    open func addImageView(_ imageView: UIImageView) -> Bool {
+     func addImageView(_ imageView: UIImageView) -> Bool {
         if containsImageView(imageView) {
             return false
         }
@@ -52,7 +52,7 @@ open class SwiftyGifManager {
         return true
     }
     
-    open func clear() {
+     func clear() {
         while !displayViews.isEmpty {
             displayViews.removeFirst().clear()
         }
@@ -62,7 +62,7 @@ open class SwiftyGifManager {
      Delete an imageView from this manager if it exists
      - Parameter imageView: The UIImageView we want to delete
      */
-    open func deleteImageView(_ imageView: UIImageView){
+     func deleteImageView(_ imageView: UIImageView){
         
         if let index = self.displayViews.index(of: imageView){
             if index >= 0 && index < self.displayViews.count {
@@ -85,7 +85,7 @@ open class SwiftyGifManager {
      - Parameter imageView: The UIImageView we're searching
      - Returns : a boolean for wether the imageView was found
      */
-    open func containsImageView(_ imageView: UIImageView) -> Bool{
+    func containsImageView(_ imageView: UIImageView) -> Bool{
         return displayViews.contains(imageView)
     }
     
@@ -94,7 +94,7 @@ open class SwiftyGifManager {
      - Parameter imageView: The UIImageView we're searching cache for
      - Returns : a boolean for wether we have cache for the imageView
      */
-    open func hasCache(_ imageView: UIImageView) -> Bool{
+    func hasCache(_ imageView: UIImageView) -> Bool{
         if imageView.displaying == false {
             return false
         }

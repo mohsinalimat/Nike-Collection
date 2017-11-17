@@ -10,12 +10,14 @@ import UIKit
 
 class UserRating:UIView{
     
+    //store rating temp value
     var rating = 0{
         didSet{
             setNeedsLayout()
         }
     }
     
+    //rating buttons array
     var ratingButtons = [UIButton]()
     
     required init?(coder aDecoder: NSCoder) {

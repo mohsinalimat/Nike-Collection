@@ -152,7 +152,8 @@ self.pageView.addSubview(self.pageViewController!.view)
 
  //set navigation bar colorful 
     private func gradientNavigationBar(){
-navigationController?.navigationBar.setGradientBackground(colors: [UIColor(hex:"111BDB"),UIColor(hex: "DB1121"),UIColor(hex: "80F441")])
+navigationController?.navigationBar.setGradientBackground(colors: [#colorLiteral(red: 0.400000006, green: 0, blue: 0.400000006, alpha: 1),#colorLiteral(red: 0, green: 0, blue: 0.5019999743, alpha: 1),#colorLiteral(red: 0, green: 0.5019999743, blue: 0, alpha: 1)])
+  
     }
     
 }

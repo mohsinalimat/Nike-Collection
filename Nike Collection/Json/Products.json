@@ -11,7 +11,7 @@
                             "Jordan Achievement 1.jpg", "Jordan Achievement 2.jpg", "Jordan Achievement 3.jpg", "Jordan Achievement 4.jpg", "Jordan Achievement 5.jpg"
                             ],
                  "manufacturerId": 1,
-                 "manufacturerName": "Hall of Fame",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "379937-010",
                  "quantity": 15,
                  "rating": 5,
@@ -33,7 +33,7 @@
                             "Jordan II Jacket 1.jpg", "Jordan II Jacket 2.jpg", "Jordan II Jacket 3.jpg", "Jordan II Jacket 4.jpg", "Jordan II Jacket 5.jpg"
                             ],
                  "manufacturerId": 1,
-                 "manufacturerName": "Jordan II",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "715837-010",
                  "quantity": 0,
                  "rating": 3,
@@ -53,7 +53,7 @@
                             "Jordan Lamb 1.jpg", "Jordan Lamb 2.jpg", "Jordan Lamb 3.jpg", "Jordan Lamb 4.jpg", "Jordan Lamb 5.jpg"
                             ],
                  "manufacturerId": 1,
-                 "manufacturerName": "Lamb",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "356023-010",
                  "quantity": 3,
                  "rating": 4,
@@ -74,7 +74,7 @@
                             "Jordan Westbrook 1.jpg", "Jordan Westbrook 2.jpg", "Jordan Westbrook 3.jpg", "Jordan Westbrook 4.jpg", "Jordan Westbrook 5.jpg"
                             ],
                  "manufacturerId": 1,
-                 "manufacturerName": "Jordan Westbrook",
+                 "manufacturerName": "Westbrook",
                  "modelNumber": "694029-010",
                  "quantity": 16,
                  "rating": 4,
@@ -93,7 +93,7 @@
                             "Jordan XX9 MTM 1.jpg", "Jordan XX9 MTM 2.jpg", "Jordan XX9 MTM 3.jpg", "Jordan XX9 MTM 4.jpg", "Jordan XX9 MTM 5.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "Jordan XX9",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "802400-001",
                  "quantity": 7,
                  "rating": 5,
@@ -113,7 +113,7 @@
                             "Jordan XX8 Bamboo 1.jpg","Jordan XX8 Bamboo 2.jpg","Jordan XX8 Bamboo 3.jpg","Jordan XX8 Bamboo 4.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "Bamboo",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "649501-100",
                  "quantity": 7,
                  "rating": 3,
@@ -134,7 +134,7 @@
                             "LeBron 20-5-5 Horsemen 1.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "Horsemen",
+                 "manufacturerName": "Lebron",
                  "modelNumber": "311145-354",
                  "quantity": 7,
                  "rating": 5,
@@ -153,7 +153,7 @@
                             "Lebron X CHROME PE 1.jpg", "Lebron X CHROME PE 2.jpg", "Lebron X CHROME PE 3.jpg", "Lebron X CHROME PE 4.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "CHROME",
+                 "manufacturerName": "Lebron",
                  "modelNumber": "mnbskt-111",
                  "quantity": 1,
                  "rating": 5,
@@ -173,7 +173,7 @@
                             "Jordan XXXI RW 1.jpg", "Jordan XXXI RW 2.jpg", "Jordan XXXI RW 3.jpg", "Jordan XXXI RW 4.jpg", "Jordan XXXI RW 5.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "RW",
+                 "manufacturerName": "Westbrook",
                  "modelNumber": "AA9794-023",
                  "quantity": 12,
                  "rating": 5,
@@ -193,7 +193,7 @@
                             "Jordan XXIII Trophy Room Black 1.jpg", "Jordan XXIII Trophy Room Black 2.jpg","Jordan XXIII Trophy Room Black 3.jpg", "Jordan XXIII Trophy Room Black 4.jpg", "Jordan XXIII Trophy Room Black 5.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "Trophy Room Black",
+                 "manufacturerName": "Trophy Room",
                  "modelNumber": "853336-023",
                  "quantity": 3,
                  "rating": 5,
@@ -213,7 +213,7 @@
                             "Jordan XXIII Trophy Room White 1.jpg" , "Jordan XXIII Trophy Room White 2.jpg" , "Jordan XXIII Trophy Room White 3.jpg" , "Jordan XXIII Trophy Room White 4.jpg" , "Jordan XXIII Trophy Room White 5.jpg"
                             ],
                  "manufacturerId": 2,
-                 "manufacturerName": "Trophy Room White",
+                 "manufacturerName": "Trophy Room",
                  "modelNumber": "853336-123",
                  "quantity": 1,
                  "rating": 5,
@@ -232,7 +232,7 @@
                             "For The Love Of The Game 1.jpg" ,"For The Love Of The Game 2.jpg" ,"For The Love Of The Game 3.jpg" ,"For The Love Of The Game 4.jpg" ,"For The Love Of The Game 5.jpg"
                             ],
                  "manufacturerId": 3,
-                 "manufacturerName": "For The Love",
+                 "manufacturerName": "Generic",
                  "modelNumber": "Personal Collection",
                  "quantity": 9,
                  "rating": 5,
@@ -251,7 +251,7 @@
                             "Jordan Cologne 1.jpg" ,"Jordan Cologne 2.jpg" ,"Jordan Cologne 3.jpg" ,"Jordan Cologne 4.jpg" ,"Jordan Cologne 5.jpg" 
                             ],
                  "manufacturerId": 3,
-                 "manufacturerName": "Cologne",
+                 "manufacturerName": "Generic",
                  "modelNumber": "Personal Collection",
                  "quantity": 5,
                  "rating": 5,
@@ -271,7 +271,7 @@
                             "Jordan Wings UD 1.jpg", "Jordan Wings UD 2.jpg", "Jordan Wings UD 3.jpg", "Jordan Wings UD 4.jpg", "Jordan Wings UD 5.jpg"
                             ],
                  "manufacturerId": 3,
-                 "manufacturerName": "Wings UD",
+                 "manufacturerName": "Generic",
                  "modelNumber": "Personal Collection",
                  "quantity": 5,
                  "rating": 5,
@@ -290,7 +290,7 @@
                             "Jordan XXiii Basketball 1.jpg", "Jordan XXiii Basketball 2.jpg", "Jordan XXiii Basketball 3.jpg", "Jordan XXiii Basketball 4.jpg", "Jordan XXiii Basketball 5.jpg"
                             ],
                  "manufacturerId": 3,
-                 "manufacturerName": "XXiii Basketball",
+                 "manufacturerName": "Generic",
                  "modelNumber": "BB0326-267",
                  "quantity": 5,
                  "rating": 5,
@@ -309,7 +309,7 @@
                             "Jordan 96-97 Short 1.jpg", "Jordan 96-97 Short 2.jpg", "Jordan 96-97 Short 3.jpg", "Jordan 96-97 Short 4.jpg", "Jordan 96-97 Short 5.jpg"
                             ],
                  "manufacturerId": 4,
-                 "manufacturerName": "Jordan 96-97",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "B06Y1397SC",
                  "quantity": 5,
                  "rating": 5,
@@ -328,7 +328,7 @@
                             "Jordan 97-98 Short 1.jpg", "Jordan 97-98 Short 2.jpg", "Jordan 97-98 Short 3.jpg", "Jordan 97-98 Short 4.jpg", "Jordan 97-98 Short 5.jpg"
                             ],
                  "manufacturerId": 4,
-                 "manufacturerName": "Jordan 97-98",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "369PA3B5I97BCU",
                  "quantity": 5,
                  "rating": 5,
@@ -347,7 +347,7 @@
                             "Jordan New Orleans 1.jpg", "Jordan New Orleans 2.jpg", "Jordan New Orleans 3.jpg", "Jordan New Orleans 4.jpg", "Jordan New Orleans 5.jpg"
                             ],
                  "manufacturerId": 4,
-                 "manufacturerName": "New Orleans",
+                 "manufacturerName": "Air Jordan",
                  "modelNumber": "657926-010",
                  "quantity": 5,
                  "rating": 5,

@@ -24,9 +24,9 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         
         //change bar background color to #000000
         UINavigationBar.appearance().barTintColor = UIColor(hex: "000000")
-        
+    
         //change status text color to white
-        UIApplication.shared.statusBarStyle = .lightContent
+     UIApplication.shared.statusBarStyle = .lightContent
     
     //reset Core Data, for fetch a nsmanageobj as each entity in one time
       CoreDataDelete.shared.resetRequest()
