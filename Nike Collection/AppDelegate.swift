@@ -23,12 +23,12 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         // Override point for customization after application launch.
         
         //change bar background color to #000000
-        UINavigationBar.appearance().barTintColor = UIColor(hex: "000000")
+        UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     
         //change status text color to white
      UIApplication.shared.statusBarStyle = .lightContent
     
-    //reset Core Data, for fetch a nsmanageobj as each entity in one time
+    //reset Core Data, for fetch an smanageobj as each entity in one time
       CoreDataDelete.shared.resetRequest()
         
         //save json data to Core Data

@@ -131,6 +131,9 @@
 		A5E546791FBE9C9E0047AE62 /* HeadlinerNo.45 DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E546781FBDF6A60047AE62 /* HeadlinerNo.45 DEMO.ttf */; };
 		A5E5467B1FBEAA9A0047AE62 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E5467A1FBEAA9A0047AE62 /* Theme.xcassets */; };
 		A5E5467D1FBEB8650047AE62 /* Suissnord.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5E5467C1FBEB8230047AE62 /* Suissnord.otf */; };
+		A5E546811FBEC4C70047AE62 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546801FBEC4C70047AE62 /* ProductDetailViewController.swift */; };
+		A5E546831FBEC61C0047AE62 /* DetailSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546821FBEC61C0047AE62 /* DetailSummaryView.swift */; };
+		A5E546851FBEF0E10047AE62 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546841FBEF0E10047AE62 /* Stepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,6 +284,9 @@
 		A5E546781FBDF6A60047AE62 /* HeadlinerNo.45 DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HeadlinerNo.45 DEMO.ttf"; sourceTree = "<group>"; };
 		A5E5467A1FBEAA9A0047AE62 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		A5E5467C1FBEB8230047AE62 /* Suissnord.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Suissnord.otf; sourceTree = "<group>"; };
+		A5E546801FBEC4C70047AE62 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		A5E546821FBEC61C0047AE62 /* DetailSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSummaryView.swift; sourceTree = "<group>"; };
+		A5E546841FBEF0E10047AE62 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +319,8 @@
 			children = (
 				A530361F1FB46EF600820D2F /* ProductsTableViewController.swift */,
 				A53036571FB772F900820D2F /* ProductsTableViewCell.swift */,
+				A5E546801FBEC4C70047AE62 /* ProductDetailViewController.swift */,
+				A5E546821FBEC61C0047AE62 /* DetailSummaryView.swift */,
 			);
 			path = "Detail Tab";
 			sourceTree = "<group>";
@@ -622,17 +630,13 @@
 		A58EAC271FA6F7C6005DE595 /* Assist Part */ = {
 			isa = PBXGroup;
 			children = (
-				A57B29D91FAC997A00F2F88A /* Utility.swift */,
-				A5E546741FBD8F190047AE62 /* Bubble.swift */,
-				A530366E1FBB0A0900820D2F /* UserRating.swift */,
-				A58EAC1F1FA6DA9D005DE595 /* UIColor+Extension.swift */,
-				A5B326F11FB1CA74000852F7 /* UINavigation+Extension.swift */,
-				A57B29DB1FAC99B500F2F88A /* String+Extension.swift */,
-				A530361D1FB444A300820D2F /* Double+Extension.swift */,
-				A57B284E1FAC827800F2F88A /* UIView+Extension.swift */,
-				A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */,
-				A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */,
-				A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */,
+				A5E5468C1FBF02B40047AE62 /* Rating Assist */,
+				A5E5468B1FBF02A00047AE62 /* Bubble Effect Assist */,
+				A5E5468A1FBF02920047AE62 /* NavigationBar Assist */,
+				A5E546891FBF02770047AE62 /* Load Image Assist */,
+				A5E546881FBF02480047AE62 /* Manu Assist */,
+				A5E546861FBEF2180047AE62 /* Gif Assist */,
+				A5E546871FBEF3FA0047AE62 /* Stepper Button Assist */,
 			);
 			path = "Assist Part";
 			sourceTree = "<group>";
@@ -722,6 +726,67 @@
 				A5D799D01FB0D50100AE05B2 /* ProductCollectionViewCell.swift */,
 			);
 			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		A5E546861FBEF2180047AE62 /* Gif Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A57B28491FAC7CE600F2F88A /* UIImage+SwiftyGif.swift */,
+				A57B28481FAC7CE500F2F88A /* UIImageView+SwiftyGif.swift */,
+				A57B284A1FAC7CE600F2F88A /* SwiftyGifManager.swift */,
+			);
+			path = "Gif Assist";
+			sourceTree = "<group>";
+		};
+		A5E546871FBEF3FA0047AE62 /* Stepper Button Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A5E546841FBEF0E10047AE62 /* Stepper.swift */,
+			);
+			path = "Stepper Button Assist";
+			sourceTree = "<group>";
+		};
+		A5E546881FBF02480047AE62 /* Manu Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A58EAC1F1FA6DA9D005DE595 /* UIColor+Extension.swift */,
+				A530361D1FB444A300820D2F /* Double+Extension.swift */,
+				A57B284E1FAC827800F2F88A /* UIView+Extension.swift */,
+			);
+			path = "Manu Assist";
+			sourceTree = "<group>";
+		};
+		A5E546891FBF02770047AE62 /* Load Image Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A57B29D91FAC997A00F2F88A /* Utility.swift */,
+				A57B29DB1FAC99B500F2F88A /* String+Extension.swift */,
+			);
+			path = "Load Image Assist";
+			sourceTree = "<group>";
+		};
+		A5E5468A1FBF02920047AE62 /* NavigationBar Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A5B326F11FB1CA74000852F7 /* UINavigation+Extension.swift */,
+			);
+			path = "NavigationBar Assist";
+			sourceTree = "<group>";
+		};
+		A5E5468B1FBF02A00047AE62 /* Bubble Effect Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A5E546741FBD8F190047AE62 /* Bubble.swift */,
+			);
+			path = "Bubble Effect Assist";
+			sourceTree = "<group>";
+		};
+		A5E5468C1FBF02B40047AE62 /* Rating Assist */ = {
+			isa = PBXGroup;
+			children = (
+				A530366E1FBB0A0900820D2F /* UserRating.swift */,
+			);
+			path = "Rating Assist";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1061,6 +1126,7 @@
 				A5D799D11FB0D50100AE05B2 /* ProductCollectionViewCell.swift in Sources */,
 				A57B284F1FAC827800F2F88A /* UIView+Extension.swift in Sources */,
 				A530366F1FBB0A0900820D2F /* UserRating.swift in Sources */,
+				A5E546851FBEF0E10047AE62 /* Stepper.swift in Sources */,
 				A5D799CC1FAF680900AE05B2 /* CoreDataDelete.swift in Sources */,
 				A57B28581FAC8F0600F2F88A /* NikeCollectionMomd.xcdatamodeld in Sources */,
 				A57B29D81FAC966F00F2F88A /* CoreDataSave.swift in Sources */,
@@ -1068,7 +1134,9 @@
 				A57B29DC1FAC99B500F2F88A /* String+Extension.swift in Sources */,
 				A5D632561F84B66100B80078 /* AppDelegate.swift in Sources */,
 				A5D6328A1F84F52D00B80078 /* HomeViewController.swift in Sources */,
+				A5E546831FBEC61C0047AE62 /* DetailSummaryView.swift in Sources */,
 				A57B29DA1FAC997A00F2F88A /* Utility.swift in Sources */,
+				A5E546811FBEC4C70047AE62 /* ProductDetailViewController.swift in Sources */,
 				A57B284C1FAC7CE600F2F88A /* UIImage+SwiftyGif.swift in Sources */,
 				A57B284D1FAC7CE600F2F88A /* SwiftyGifManager.swift in Sources */,
 				A5E546751FBD8F190047AE62 /* Bubble.swift in Sources */,

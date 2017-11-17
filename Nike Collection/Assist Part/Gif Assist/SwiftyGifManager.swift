@@ -68,11 +68,12 @@ import Foundation
             if index >= 0 && index < self.displayViews.count {
                 displayViews.remove(at: index)
                 totalGifSize -= imageView.gifImage?.imageSize ?? 0
-                if totalGifSize < memoryLimit && !haveCache {
-                    haveCache = true
-                    for imageView in displayViews {
-                        DispatchQueue.global(qos: DispatchQoS.QoSClass.userInteractive).sync{
-                            imageView.updateCache()
+    if totalGifSize < memoryLimit && !haveCache {
+            haveCache = true
+    
+        for imageView in displayViews {
+    DispatchQueue.global(qos: DispatchQoS.QoSClass.userInteractive).sync{
+        imageView.updateCache()
                         }
                     }
                 }
