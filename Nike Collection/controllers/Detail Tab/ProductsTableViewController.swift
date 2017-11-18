@@ -26,17 +26,19 @@ class ProductsTableViewController: UITableViewController{
     //as section cells
     var sectionItems = [[Product]]()
     
+    //selected cell
+    var selectedProduct: Product?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        fetchData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        fetchData()
        setFootView()
-        tableView.reloadData()
+        //tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,6 +62,10 @@ extension ProductsTableViewController{
         sectionItems = sectionNames.map{ (element) -> [Product] in
             return CoreDataFetch.fetchResult.productsServe(category: element)
         }
+
+        // init the selectedProduct
+selectedProduct = CoreDataFetch.fetchResult.productsServe(category: "Jackets").first
+        
     }
     
     
@@ -152,11 +158,29 @@ extension ProductsTableViewController{
         
         let section = self.sectionItems[indexPath.section]
         
+        let currentProduct = section[indexPath.row]
+           
+        if selectedProduct?.id == currentProduct.id{
+            tableView.selectRow(at: indexPath, animated: false, scrollPosition: .none)
+            
+            cell.contentView.layer.borderWidth = 2
+            cell.contentView.layer.borderColor = UIColor.green.cgColor
+            
+            
+        }else{
+            cell.contentView.layer.borderWidth = 0
+            cell.contentView.layer.borderColor = UIColor.clear.cgColor
+            
+        }
+            
+        
+        
         cell.productImageView.layer.borderWidth = 2
         cell.productImageView.layer.cornerRadius = 10
         cell.productImageView.layer.borderColor = UIColor.red.cgColor
         
         cell.configureCell(with: section[indexPath.row])
+        
         
         return cell
         
@@ -220,8 +244,9 @@ extension ProductsTableViewController{
         
     }
   
-    
-    override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedProduct = sectionItems[indexPath.section][indexPath.row]
+        tableView.reloadData()
     }
+    
 }

@@ -25,6 +25,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         //change bar background color to #000000
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     
+    
         //change status text color to white
      UIApplication.shared.statusBarStyle = .lightContent
     

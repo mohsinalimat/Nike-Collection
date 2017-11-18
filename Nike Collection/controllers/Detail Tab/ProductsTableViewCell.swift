@@ -25,13 +25,19 @@ class ProductsTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-
+        
+self.selectedBackgroundView = UIVisualEffectView(effect: UIBlurEffect(style: .extraLight))
+        
+ self.selectionStyle = .default
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+        self.selectedBackgroundView?.backgroundColor = UIColor.white
+        
     }
 
 }
