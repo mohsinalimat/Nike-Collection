@@ -12,7 +12,15 @@ class ProductDetailViewController: UIViewController {
 
     @IBOutlet weak var detailSummaryView: DetailSummaryView!
     
-    
+    var product:Product?{
+        didSet{
+            if let currentProduct = product{
+                
+             self.showDetail(forThe: currentProduct)
+                
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,14 +38,14 @@ class ProductDetailViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
+   
+}// ProductDetailViewController class over line
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+// custom functions
+extension ProductDetailViewController{
+    
+    private func showDetail(forThe currentProduct:Product){
+        detailSummaryView.updateView(with: currentProduct)
     }
-    */
-
+    
 }

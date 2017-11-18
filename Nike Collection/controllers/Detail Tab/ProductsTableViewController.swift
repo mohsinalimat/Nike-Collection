@@ -196,6 +196,11 @@ extension ProductsTableViewController{
         
         header.textLabel?.textColor = UIColor.white
         
+        let font = UIFont(name: "ZiGzAgEo", size: 20)!
+        let fontMetrics = UIFontMetrics(forTextStyle: .body)
+        
+        header.textLabel?.font = fontMetrics.scaledFont(for: font)
+       
         if let viewWithTag = self.view.viewWithTag(kHeaderSectionTag + section) {
             viewWithTag.removeFromSuperview()
         }
@@ -214,6 +219,7 @@ extension ProductsTableViewController{
         header.addGestureRecognizer(headerTapGesture)
         
     }
+  
     
     override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)

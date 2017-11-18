@@ -9,13 +9,44 @@
 import UIKit
 
 class DetailSummaryView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    
+    @IBOutlet weak var manufacturer: UILabel!
+    
+    @IBOutlet weak var productNameLabel: UILabel!
+    
+    @IBOutlet weak var listPriceLabel: UILabel!
+    
+    @IBOutlet weak var dealPriceLabel: UILabel!
+    
+    @IBOutlet weak var priceSaveDollarLabel: UILabel!
+    
+    @IBOutlet weak var priceSavedPercentlabel: UILabel!
+    
+    @IBOutlet weak var isInStock: UILabel!
+    
+    @IBOutlet weak var qtyLeftLabel: UILabel!
+    
+    @IBOutlet weak var quantityControl: Stepper!
+    
+    @IBOutlet weak var addToCartButton: UIButton!
+    
+    @IBOutlet weak var productImageView: UIImageView!
+    
+    @IBOutlet weak var userRating: UserRating!
+    
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
     }
-    */
-
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    func updateView(with product: Product){
+        
+    }
+    
+    
 }

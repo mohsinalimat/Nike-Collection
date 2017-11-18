@@ -128,12 +128,13 @@
 		A5D799CE1FB0CF1100AE05B2 /* CoreDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D799CD1FB0CF1100AE05B2 /* CoreDataFetch.swift */; };
 		A5D799D11FB0D50100AE05B2 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D799D01FB0D50100AE05B2 /* ProductCollectionViewCell.swift */; };
 		A5E546751FBD8F190047AE62 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546741FBD8F190047AE62 /* Bubble.swift */; };
-		A5E546791FBE9C9E0047AE62 /* HeadlinerNo.45 DEMO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E546781FBDF6A60047AE62 /* HeadlinerNo.45 DEMO.ttf */; };
 		A5E5467B1FBEAA9A0047AE62 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E5467A1FBEAA9A0047AE62 /* Theme.xcassets */; };
 		A5E5467D1FBEB8650047AE62 /* Suissnord.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5E5467C1FBEB8230047AE62 /* Suissnord.otf */; };
 		A5E546811FBEC4C70047AE62 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546801FBEC4C70047AE62 /* ProductDetailViewController.swift */; };
 		A5E546831FBEC61C0047AE62 /* DetailSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546821FBEC61C0047AE62 /* DetailSummaryView.swift */; };
 		A5E546851FBEF0E10047AE62 /* Stepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E546841FBEF0E10047AE62 /* Stepper.swift */; };
+		A5E5468E1FBF75BC0047AE62 /* mortalkombat3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E5468D1FBF75990047AE62 /* mortalkombat3.ttf */; };
+		A5E546901FBFDF750047AE62 /* mortalkombat2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E5468F1FBFDF480047AE62 /* mortalkombat2.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,12 +282,13 @@
 		A5D799CD1FB0CF1100AE05B2 /* CoreDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFetch.swift; sourceTree = "<group>"; };
 		A5D799D01FB0D50100AE05B2 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		A5E546741FBD8F190047AE62 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
-		A5E546781FBDF6A60047AE62 /* HeadlinerNo.45 DEMO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HeadlinerNo.45 DEMO.ttf"; sourceTree = "<group>"; };
 		A5E5467A1FBEAA9A0047AE62 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		A5E5467C1FBEB8230047AE62 /* Suissnord.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Suissnord.otf; sourceTree = "<group>"; };
 		A5E546801FBEC4C70047AE62 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		A5E546821FBEC61C0047AE62 /* DetailSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSummaryView.swift; sourceTree = "<group>"; };
 		A5E546841FBEF0E10047AE62 /* Stepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper.swift; sourceTree = "<group>"; };
+		A5E5468D1FBF75990047AE62 /* mortalkombat3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mortalkombat3.ttf; sourceTree = "<group>"; };
+		A5E5468F1FBFDF480047AE62 /* mortalkombat2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mortalkombat2.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,7 +331,8 @@
 			isa = PBXGroup;
 			children = (
 				A5E5467C1FBEB8230047AE62 /* Suissnord.otf */,
-				A5E546781FBDF6A60047AE62 /* HeadlinerNo.45 DEMO.ttf */,
+				A5E5468D1FBF75990047AE62 /* mortalkombat3.ttf */,
+				A5E5468F1FBFDF480047AE62 /* mortalkombat2.ttf */,
 				A53036861FBC37E600820D2F /* P22 ToyBox Blocks Regular.ttf */,
 				A53036781FBB63CF00820D2F /* ZiGzAgEo-Reg-FFP.ttf */,
 				A53036881FBC3CE900820D2F /* P22 ToyBox BlocksLine Regular.ttf */,
@@ -902,8 +905,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E546901FBFDF750047AE62 /* mortalkombat2.ttf in Resources */,
+				A5E5468E1FBF75BC0047AE62 /* mortalkombat3.ttf in Resources */,
 				A5E5467D1FBEB8650047AE62 /* Suissnord.otf in Resources */,
-				A5E546791FBE9C9E0047AE62 /* HeadlinerNo.45 DEMO.ttf in Resources */,
 				A53036891FBC3D8900820D2F /* P22 ToyBox BlocksLine Regular.ttf in Resources */,
 				A53036871FBC380500820D2F /* P22 ToyBox Blocks Regular.ttf in Resources */,
 				A53036821FBB6F3A00820D2F /* MosaicCaps.ttf in Resources */,

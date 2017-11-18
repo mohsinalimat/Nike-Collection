@@ -37,9 +37,10 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>mortalkombat2.ttf</string>
+		<string>mortalkombat3.ttf</string>
 		<string>Suissnord.ttf</string>
 		<string>P22 ToyBox BlocksLine Regular.ttf</string>
-		<string>HeadlinerNo.45 DEMO.ttf</string>
 		<string>P22 ToyBox Blocks Regular.ttf</string>
 		<string>MosaicCaps.ttf</string>
 		<string>ZiGzAgEo-Reg-FFP.ttf</string>
