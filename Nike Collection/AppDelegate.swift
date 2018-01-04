@@ -25,7 +25,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         //change bar background color to #000000
         UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     
-    
         //change status text color to white
      UIApplication.shared.statusBarStyle = .lightContent
     
@@ -36,7 +35,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         CoreDataSave.shared.loadProducts()
     
         //Core Data files save location
-   let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
+let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
     
         //shows location in console
         print(urls[urls.count-1] as URL)

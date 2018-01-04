@@ -172,16 +172,13 @@ extension ProductsTableViewController{
             cell.contentView.layer.borderColor = UIColor.clear.cgColor
             
         }
-            
-        
         
         cell.productImageView.layer.borderWidth = 2
         cell.productImageView.layer.cornerRadius = 10
         cell.productImageView.layer.borderColor = UIColor.red.cgColor
         
         cell.configureCell(with: section[indexPath.row])
-        
-        
+                
         return cell
         
     }
@@ -232,7 +229,7 @@ extension ProductsTableViewController{
         let headerFrame = self.view.frame.size
         let theImageView = UIImageView(frame: CGRect(x: headerFrame.width - 32, y: 13, width: 18, height: 18))
         
-        theImageView.image = #imageLiteral(resourceName: "DownArrow")
+        theImageView.image = #imageLiteral(resourceName: "down arrow")
         theImageView.tag = kHeaderSectionTag + section
         header.addSubview(theImageView)
         
